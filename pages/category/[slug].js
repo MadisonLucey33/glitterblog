@@ -41,12 +41,12 @@ const CategoryPost = ({ posts }) => {
       </div>
       
     </div>
-    <div className="-mb-96" style={{marginBottom: "-30rem"}}>
+    <div className="-mb-96 " style={{marginBottom: "-30rem"}}>
     <TealAuthor />
     <svg width="100%" height="600" viewBox="0 0 1200 600" preserveAspectRatio="none" style={{display:'block'}}><path d="M 0,150 C 400,0 800,400 1200,150 L 1200,600 L 0,600 Z" fill="hsl(225deg, 15%, 15%)"></path></svg>
   
     <TealAuthorCopy />
-          <svg width="100%" className="z-0" height="900" viewBox="0 0 1200 600" preserveAspectRatio="none"  style={{display:'block', transform: "rotate(180deg)" }}><path d="M 0,150 C 400,0 800,400 1200,150 L 1200,600 L 0,600 Z" fill="hsl(225deg, 15%, 15%)"></path></svg>
+          <svg width="100%" className="z-0 " height="900" viewBox="0 0 1200 600" preserveAspectRatio="none"  style={{display:'block', transform: "rotate(180deg)" }}><path d="M 0,150 C 400,0 800,400 1200,150 L 1200,600 L 0,600 Z" fill="hsl(225deg, 15%, 15%)"></path></svg>
           </div>
           </div>
   );

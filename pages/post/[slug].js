@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 
-import { PostDetail, Categories, PostWidget, Author, Comments, CommentsForm, Loader, TealAuthor, TealAuthorCopy } from '../../components';
+import { PostDetail, Categories, PostWidget, Author, Comments, CommentsForm, Loader, TealAuthor, TealAuthorCopyCopyPost } from '../../components';
 import { getPosts, getPostDetails } from '../../services';
 import { AdjacentPosts } from '../../sections';
 
@@ -33,7 +33,7 @@ const PostDetails = ({ post }) => {
         <TealAuthor />
       <svg width="100%" height="600" viewBox="0 0 1200 600" preserveAspectRatio="none" style={{display:'block'}}><path d="M 0,150 C 400,0 800,400 1200,150 L 1200,600 L 0,600 Z" fill="hsl(225deg, 15%, 15%)"></path></svg>
     
-      <TealAuthorCopy />
+      <TealAuthorCopyCopyPost />
             <svg width="100%" height="900" viewBox="0 0 1200 600" preserveAspectRatio="none"  style={{display:'block', transform: "rotate(180deg)" }}><path d="M 0,150 C 400,0 800,400 1200,150 L 1200,600 L 0,600 Z" fill="hsl(225deg, 15%, 15%)"></path></svg>
 
       <div className="container mx-auto px-10 mb-8 -mt-36 ">

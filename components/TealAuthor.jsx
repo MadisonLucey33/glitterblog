@@ -253,7 +253,8 @@ const TealAuthor = () => {
                     />
                     
                    
-                    <img alt="" className="z-2 invisible lg:visible lg:-ml-20 xl:-ml-9 2xl:ml-0 mt-14" src="https://media.graphassets.com/JMcHectRSFqLJKlSeebK" class="Letter__StubbyArrow-sc-1iy9pj9-11 fniWYQ"/>
+                    {/* <img alt="" className="z-2 invisible sm:invisible md:invisible lg:visible lg:-ml-20 xl:-ml-9 2xl:ml-0 mt-24 " src="https://media.graphassets.com/JMcHectRSFqLJKlSeebK" class="Letter__StubbyArrow-sc-1iy9pj9-11 fniWYQ"/> */}
+                    {/* <img alt="" className="z-2 invisible lg:visible lg:-ml-20 xl:-ml-9 2xl:ml-0 mt-16 " src="https://media.graphassets.com/JMcHectRSFqLJKlSeebK" class="Letter__StubbyArrow-sc-1iy9pj9-11 fniWYQ"/> */}
                     </div> 
 
 

@@ -22,7 +22,7 @@ const Categories = () => {
 
   return (
     <span>
-    <div className="bg-white shadow-lg rounded-lg p-8 pb-12 mb-8 ">
+    <div className="bg-white  shadow-lg rounded-lg p-8 pb-12 mb-8 ">
       <h3 className="text-xl mb-3 font-semibold border-b pb-4 ">Categories 
       
       </h3>
