@@ -179,7 +179,7 @@ export default function Example({slug}) {
        case 'blog-1': // May 20, 2021
        return (
         <div className="bg-white ">
-          <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+          <div className="max-w-2xl mx-auto   px-4 sm:pt-12 sm:pb-6 sm:px-6 lg:max-w-7xl lg:px-8">
             <div className="lg:grid lg:grid-cols-1 lg:gap-x-8 lg:items-start">
               {/* Image gallery */}
               <Tab.Group as="div" className="flex flex-col-reverse">
@@ -482,7 +482,7 @@ export default function Example({slug}) {
        case 'blog-2': // Sat May 22, 2021 CHICAGO
        return (
         <div className="bg-white">
-          <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+          <div className="max-w-2xl mx-auto   px-4 sm:pt-12 sm:pb-6 sm:px-6 lg:max-w-7xl lg:px-8">
             <div className="lg:grid lg:grid-cols-1 lg:gap-x-8 lg:items-start">
               {/* Image gallery */}
               <Tab.Group as="div" className="flex flex-col-reverse">
@@ -1093,7 +1093,7 @@ export default function Example({slug}) {
        case 'blog-3': // Sun May 24, 2021 Chicago #2
        return (
         <div className="bg-white">
-          <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+          <div className="max-w-2xl mx-auto   px-4 sm:pt-12 sm:pb-6 sm:px-6 lg:max-w-7xl lg:px-8">
             <div className="lg:grid lg:grid-cols-1 lg:gap-x-8 lg:items-start">
               {/* Image gallery */}
               <Tab.Group as="div" className="flex flex-col-reverse">
@@ -2869,7 +2869,7 @@ export default function Example({slug}) {
        case 'blog-5': // Wed May 26, 2021 Texas
        return (
         <div className="bg-white">
-          <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+          <div className="max-w-2xl mx-auto   px-4 sm:pt-12 sm:pb-6 sm:px-6 lg:max-w-7xl lg:px-8">
             <div className="lg:grid lg:grid-cols-1 lg:gap-x-8 lg:items-start">
               {/* Image gallery */}
               <Tab.Group as="div" className="flex flex-col-reverse">
@@ -3423,7 +3423,7 @@ export default function Example({slug}) {
        case 'blog-6': // Thurs May 27, 2021 NEW MEXICO
        return (
         <div className="bg-white">
-          <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+          <div className="max-w-2xl mx-auto   px-4 sm:pt-12 sm:pb-6 sm:px-6 lg:max-w-7xl lg:px-8">
             <div className="lg:grid lg:grid-cols-1 lg:gap-x-8 lg:items-start">
               {/* Image gallery */}
               <Tab.Group as="div" className="flex flex-col-reverse">
@@ -5015,7 +5015,7 @@ export default function Example({slug}) {
        case 'blog-8': //  Sun May 30, 2021
        return (
         <div className="bg-white">
-          <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+          <div className="max-w-2xl mx-auto   px-4 sm:pt-12 sm:pb-6 sm:px-6 lg:max-w-7xl lg:px-8">
             <div className="lg:grid lg:grid-cols-1 lg:gap-x-8 lg:items-start">
               {/* Image gallery */}
               <Tab.Group as="div" className="flex flex-col-reverse">
@@ -5441,7 +5441,7 @@ export default function Example({slug}) {
        case 'blog-9': // Tue June 1, 2021
        return (
         <div className="bg-white">
-          <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+          <div className="max-w-2xl mx-auto   px-4 sm:pt-12 sm:pb-6 sm:px-6 lg:max-w-7xl lg:px-8">
             <div className="lg:grid lg:grid-cols-1 lg:gap-x-8 lg:items-start">
               {/* Image gallery */}
               <Tab.Group as="div" className="flex flex-col-reverse">
