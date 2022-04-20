@@ -13,7 +13,7 @@ import PlayMeASong from './PlayMeASong';
 const PostDetail = ({ post }) => {
 
  
-
+  let info = "test";
 
   const getContentFragment = (index, text, obj, type) => {
     let modifiedText = text;
@@ -31,13 +31,21 @@ const PostDetail = ({ post }) => {
         modifiedText = (<u key={index}>{text}</u>);
       }
     }
-    if(text.includes("-[INFO]-")) {
+    if(text.includes("-[INFO]-") || text.includes("-[INFO2]-" )) {
       console.log("Hello");
-      text = text.replace("-[INFO]-", ""); 
+  
+      if(text.includes("-[INFO]-")) { // green
+        info = "-[INFO]-";
+      } 
+      if(text.includes("-[INFO2]-")) { // orange
+        info = "-[INFO2]-";
+      } 
+      console.log(info);
       
-    
+      text = text.replace("-[INFO]-", ""); 
+      text = text.replace("-[INFO2]-", ""); 
      
-      modifiedText = (<InfoCard text={text} index={index} obj={obj}/>);
+      modifiedText = (<InfoCard text={text} index={index} obj={obj} info={info}/>);
     }
 
     switch (type) {
