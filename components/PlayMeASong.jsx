@@ -44,11 +44,11 @@ const PlayMeASong = () => {
   margin-right: 11px;
   */
     return (
-      <div className="ml-28">
+      <div className=" 2xl:ml-32 xl:ml-28 content-center">
 
         
      
-        <button className="text-white pt-4 pl-12 pr-12 pb-6"
+        <button className="ml-10 md:ml-24 lg:ml-0 2xl:ml-20 text-white pt-4 pl-12 pr-12 pb-6"
           aria-label="kick"
           onMouseDown={() => play({ id: 'kick' })}
           

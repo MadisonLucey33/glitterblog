@@ -85,7 +85,7 @@ const PostDetail = ({ post }) => {
       case 'blog-9': // Tue June 1, 2021
         return (<span>June 01, 2021</span>);
       default:
-        return (moment(post.createdAt).format('MMM DD, YYYY'));
+        return moment(post.createdAt).format('MMM DD, YYYY');
     }
 
 };
@@ -126,7 +126,7 @@ const PostDetail = ({ post }) => {
 
         <ViewPhotos slug={post.slug}/>
         
-        <span className="mySong ml-52 mb-5 " >Play me a song</span>
+        <span className="mySong mb-5 ml-36  md:ml-52 2xl:ml-72" >Play me a song</span>
         <div className="mb-5 "></div>
         <PlayMeASong />
       </div>

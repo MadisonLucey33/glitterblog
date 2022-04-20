@@ -50,7 +50,7 @@ const PostWidget = ({ categories, slug }) => {
       case 'blog-9': // Tue June 1, 2021
         return (<span>June 01, 2021</span>);
       default:
-        return (<span>moment(post.createdAt).format('MMM DD, YYYY')</span>);
+        return moment(post.createdAt).format('MMM DD, YYYY');
     }
 
   };
