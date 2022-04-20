@@ -127,6 +127,9 @@ export const getAdjacentPosts = async (createdAt, slug) => {
         featuredImage {
           url
         }
+        previewImage {
+          url
+        }
         createdAt
         slug
       }
@@ -141,6 +144,9 @@ export const getAdjacentPosts = async (createdAt, slug) => {
         }
         createdAt
         slug
+        previewImage {
+          url
+        }
       }
     }
   `;
