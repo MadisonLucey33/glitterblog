@@ -20,7 +20,7 @@ const PostDetail = ({ post }) => {
 
     if (obj) {
       if (obj.bold) {
-        modifiedText = (<b key={index}>{text}</b>);
+        modifiedText = (<span key={index} className="font-extrabold text-xl wotfard" style={{color: "rgb(44, 11, 142)", }}>{text}</span>);
       }
 
       if (obj.italic) {
