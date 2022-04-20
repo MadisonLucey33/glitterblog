@@ -31,7 +31,7 @@ const InfoCard = ({text, index, obj, info}) => {
             console.log(myText[1]);
            // console.log()
             
-            modifiedText = (<span><b>{myText[1]}</b><br></br><span>{myText[2]}</span></span>);
+            modifiedText = (<span><b>{myText[1]}</b><br></br><div className="pt-3">{myText[2]}</div></span>);
           }
 
           
@@ -101,7 +101,7 @@ const InfoCard = ({text, index, obj, info}) => {
             fontSize: "17px",
             marginTop: "48px",
             marginBottom: "64px",
-            borderLeft: "7px solid rgb(0, 204, 136)",  // green: rgb(0, 204, 136)    blue hsl(245deg, 100%, 60%)
+            borderLeft: "5px solid rgb(0, 204, 136)",  // green: rgb(0, 204, 136)    blue hsl(245deg, 100%, 60%)
             borderRadius: "6px 6px 6px 3px",
         }
 
@@ -131,7 +131,7 @@ const InfoCard = ({text, index, obj, info}) => {
             fontSize: "17px",
             marginTop: "48px",
             marginBottom: "64px",
-            borderLeft: "7px solid rgb(255, 157, 0)",  // green: rgb(0, 204, 136)    blue hsl(245deg, 100%, 60%)
+            borderLeft: "5px solid rgb(255, 157, 0)",  // green: rgb(0, 204, 136)    blue hsl(245deg, 100%, 60%)
             borderRadius: "6px 6px 6px 3px",
         }
 
@@ -146,6 +146,39 @@ const InfoCard = ({text, index, obj, info}) => {
             </div>
             </div>)
 
+
+
+        case '-[INFO3]-':
+          infoClass = "object-top absolute object-cover shadow-xl rounded-t-lg ";
+
+                
+          myContainer = {
+
+            // pretty blue background hsl(210deg, 55%, 92%)
+            // background: "hsl(210deg, 55%, 92%)", 
+            background: "hsl(210deg, 55%, 92%)", 
+            transition: "background 350ms ease 0s",
+            color: "hsl(222deg, 22%, 5%)",     
+            position: "relative",
+            padding: "24px 32px",
+            fontSize: "17px",
+            marginTop: "48px",
+            marginBottom: "64px",
+            borderLeft: "5px solid hsl(245deg, 100%, 60%)",  // green: rgb(0, 204, 136)    blue hsl(245deg, 100%, 60%)
+            borderRadius: "6px 6px 6px 3px",
+        }
+
+        
+          return(<div style={myContainer}>
+              <span className="pr-0.6 pl-0.9" key={index} style={myIcon}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="hsl(245deg, 100%, 60%)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+              </span>      
+              <div >
+              <div>{getContentFragment(index, text, obj, info)}</div>
+
+            </div>
+            </div>)
+            
 
         default: 
             return (<span>Default {info}</span>);

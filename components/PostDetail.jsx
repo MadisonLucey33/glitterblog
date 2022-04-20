@@ -31,7 +31,7 @@ const PostDetail = ({ post }) => {
         modifiedText = (<u key={index}>{text}</u>);
       }
     }
-    if(text.includes("-[INFO]-") || text.includes("-[INFO2]-" )) {
+    if(text.includes("-[INFO]-") || text.includes("-[INFO2]-") || text.includes("-[INFO3]-")) {
       console.log("Hello");
   
       if(text.includes("-[INFO]-")) { // green
@@ -40,10 +40,14 @@ const PostDetail = ({ post }) => {
       if(text.includes("-[INFO2]-")) { // orange
         info = "-[INFO2]-";
       } 
+      if(text.includes("-[INFO3]-")) { // blue
+        info = "-[INFO3]-";
+      } 
       console.log(info);
       
       text = text.replace("-[INFO]-", ""); 
       text = text.replace("-[INFO2]-", ""); 
+      text = text.replace("-[INFO3]-", ""); 
      
       modifiedText = (<InfoCard text={text} index={index} obj={obj} info={info}/>);
     }
