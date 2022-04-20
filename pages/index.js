@@ -6,7 +6,6 @@ import { getPosts } from '../services';
 
 
 export default function Home({ posts }) {
-
  
 
   return (
@@ -14,7 +13,7 @@ export default function Home({ posts }) {
       
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
         <div className="lg:col-span-8 col-span-1">
-          {posts.reverse().map((post, index) => (
+          {posts.map((post, index) => (
             <PostCard key={index} post={post.node} />
           ))}
         </div>
