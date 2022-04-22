@@ -11,8 +11,8 @@ import { getCategories } from '../services';
 
 
 
-
 const Footer = () => {
+  
   const [categories, setCategories] = useState([]);
 
   useEffect(() => {
