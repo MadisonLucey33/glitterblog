@@ -182,11 +182,11 @@ export default function Example({slug}) {
        return (
         <div className="bg-white ">
           <div className="max-w-2xl mx-auto   px-4 sm:pt-12 sm:pb-6 sm:px-6 lg:max-w-7xl lg:px-8">
-            <div className="lg:grid lg:grid-cols-1 lg:gap-x-8 lg:items-start">
+            <div className="grid grid-cols-1 gap-x-8 items-start">
               {/* Image gallery */}
               <Tab.Group as="div" className="flex flex-col-reverse">
                 {/* Image selector */}
-                <div className="hidden mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
+                <div className="visible mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
                   <Tab.List className="grid grid-cols-4 gap-6">
                     {/* {product.images.map((image) => ( */}
                       <Tab
@@ -485,11 +485,11 @@ export default function Example({slug}) {
        return (
         <div className="bg-white">
           <div className="max-w-2xl mx-auto   px-4 sm:pt-12 sm:pb-6 sm:px-6 lg:max-w-7xl lg:px-8">
-            <div className="lg:grid lg:grid-cols-1 lg:gap-x-8 lg:items-start">
+            <div className="grid grid-cols-1 gap-x-8 items-start">
               {/* Image gallery */}
               <Tab.Group as="div" className="flex flex-col-reverse">
                 {/* Image selector */}
-                <div className="hidden mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
+                <div className="visible mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
                   <Tab.List className="grid grid-cols-4 gap-6">
                     {/* {product.images.map((image) => ( */}
                       <Tab
@@ -1096,11 +1096,11 @@ export default function Example({slug}) {
        return (
         <div className="bg-white">
           <div className="max-w-2xl mx-auto   px-4 sm:pt-12 sm:pb-6 sm:px-6 lg:max-w-7xl lg:px-8">
-            <div className="lg:grid lg:grid-cols-1 lg:gap-x-8 lg:items-start">
+            <div className="grid grid-cols-1 gap-x-8 items-start">
               {/* Image gallery */}
               <Tab.Group as="div" className="flex flex-col-reverse">
                 {/* Image selector */}
-                <div className="hidden mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
+                <div className="visible mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
                   <Tab.List className="grid grid-cols-4 gap-6">
                     {/* {product.images.map((image) => ( */}
                       <Tab
@@ -1757,11 +1757,11 @@ export default function Example({slug}) {
        return (   // px-4 makes the image unnecessarily smaller in width
         <div className="bg-white ">
           <div className="max-w-2xl mx-auto   px-4 sm:pt-12 sm:pb-6 sm:px-6 lg:max-w-7xl lg:px-8">
-            <div className="lg:grid lg:grid-cols-1 lg:gap-x-8 lg:items-start">
+            <div className="grid grid-cols-1 gap-x-8 items-start">
               {/* Image gallery */}
               <Tab.Group as="div" className="flex flex-col-reverse">
                 {/* Image selector */}
-                <div className="hidden mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
+                <div className="visible mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
                   <Tab.List className="grid grid-cols-4 gap-6">
                     {/* {product.images.map((image) => ( */}
                      
@@ -2872,11 +2872,11 @@ export default function Example({slug}) {
        return (
         <div className="bg-white">
           <div className="max-w-2xl mx-auto   px-4 sm:pt-12 sm:pb-6 sm:px-6 lg:max-w-7xl lg:px-8">
-            <div className="lg:grid lg:grid-cols-1 lg:gap-x-8 lg:items-start">
+            <div className="grid grid-cols-1 gap-x-8 items-start">
               {/* Image gallery */}
               <Tab.Group as="div" className="flex flex-col-reverse">
                 {/* Image selector */}
-                <div className="hidden mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
+                <div className="visible mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
                   <Tab.List className="grid grid-cols-4 gap-6">
                     {/* {product.images.map((image) => ( */}
                       <Tab
@@ -3426,11 +3426,11 @@ export default function Example({slug}) {
        return (
         <div className="bg-white">
           <div className="max-w-2xl mx-auto   px-4 sm:pt-12 sm:pb-6 sm:px-6 lg:max-w-7xl lg:px-8">
-            <div className="lg:grid lg:grid-cols-1 lg:gap-x-8 lg:items-start">
+            <div className="grid grid-cols-1 gap-x-8 items-start">
               {/* Image gallery */}
               <Tab.Group as="div" className="flex flex-col-reverse">
                 {/* Image selector */}
-                <div className="hidden mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
+                <div className="visible mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
                   <Tab.List className="grid grid-cols-4 gap-6">
                     {/* {product.images.map((image) => ( */}
                       <Tab
@@ -4075,11 +4075,11 @@ export default function Example({slug}) {
        return (
         <div className="bg-white">
           <div className="max-w-2xl mx-auto py-16 px-4 sm:py-8 sm:px-6 lg:max-w-7xl lg:px-8">
-            <div className="lg:grid lg:grid-cols-1 lg:gap-x-8 lg:items-start">
+            <div className="grid grid-cols-1 gap-x-8 items-start">
               {/* Image gallery */}
               <Tab.Group as="div" className="flex flex-col-reverse">
                 {/* Image selector */}
-                <div className="hidden mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
+                <div className="visible mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
                   <Tab.List className="grid grid-cols-4 gap-6">
                     {/* {product.images.map((image) => ( */}
 
@@ -5018,11 +5018,11 @@ export default function Example({slug}) {
        return (
         <div className="bg-white">
           <div className="max-w-2xl mx-auto   px-4 sm:pt-12 sm:pb-6 sm:px-6 lg:max-w-7xl lg:px-8">
-            <div className="lg:grid lg:grid-cols-1 lg:gap-x-8 lg:items-start">
+            <div className="grid grid-cols-1 gap-x-8 items-start">
               {/* Image gallery */}
               <Tab.Group as="div" className="flex flex-col-reverse">
                 {/* Image selector */}
-                <div className="hidden mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
+                <div className="visible mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
                   <Tab.List className="grid grid-cols-4 gap-6">
                     {/* {product.images.map((image) => ( */}
 
@@ -5518,11 +5518,11 @@ export default function Example({slug}) {
        return (
         <div className="bg-white">
           <div className="max-w-2xl mx-auto   px-4 sm:pt-12 sm:pb-6 sm:px-6 lg:max-w-7xl lg:px-8">
-            <div className="lg:grid lg:grid-cols-1 lg:gap-x-8 lg:items-start">
+            <div className="grid grid-cols-1 gap-x-8 items-start">
               {/* Image gallery */}
               <Tab.Group as="div" className="flex flex-col-reverse">
                 {/* Image selector */}
-                <div className="hidden mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
+                <div className="visible mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
                   <Tab.List className="grid grid-cols-4 gap-6">
                     {/* {product.images.map((image) => ( */}
                       <Tab
@@ -5931,11 +5931,11 @@ export default function Example({slug}) {
       return (
        <div className="bg-white ">
          <div className="max-w-2xl mx-auto   px-4 sm:pt-12 sm:pb-6 sm:px-6 lg:max-w-7xl lg:px-8">
-           <div className="lg:grid lg:grid-cols-1 lg:gap-x-8 lg:items-start">
+           <div className="grid grid-cols-1 gap-x-8 items-start">
              {/* Image gallery */}
              <Tab.Group as="div" className="flex flex-col-reverse">
                {/* Image selector */}
-               <div className="hidden mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
+               <div className="visible mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
                  <Tab.List className="grid grid-cols-4 gap-6">
                    {/* {product.images.map((image) => ( */}
                      <Tab
@@ -6375,11 +6375,11 @@ export default function Example({slug}) {
      return (
       <div className="bg-white ">
         <div className="max-w-2xl mx-auto   px-4 sm:pt-12 sm:pb-6 sm:px-6 lg:max-w-7xl lg:px-8">
-          <div className="lg:grid lg:grid-cols-1 lg:gap-x-8 lg:items-start">
+          <div className="grid grid-cols-1 gap-x-8 items-start">
             {/* Image gallery */}
             <Tab.Group as="div" className="flex flex-col-reverse">
               {/* Image selector */}
-              <div className="hidden mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
+              <div className="visible mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
                 <Tab.List className="grid grid-cols-4 gap-6">
                   {/* {product.images.map((image) => ( */}
 
@@ -6851,11 +6851,11 @@ export default function Example({slug}) {
     return (
      <div className="bg-white ">
        <div className="max-w-2xl mx-auto   px-4 sm:pt-12 sm:pb-6 sm:px-6 lg:max-w-7xl lg:px-8">
-         <div className="lg:grid lg:grid-cols-1 lg:gap-x-8 lg:items-start">
+         <div className="grid grid-cols-1 gap-x-8 items-start">
            {/* Image gallery */}
            <Tab.Group as="div" className="flex flex-col-reverse">
              {/* Image selector */}
-             <div className="hidden mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
+             <div className="visible mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
                <Tab.List className="grid grid-cols-4 gap-6">
                  {/* {product.images.map((image) => ( */}
 
