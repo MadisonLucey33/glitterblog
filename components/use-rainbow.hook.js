@@ -57,7 +57,7 @@ const useRainbow = ({ intervalDelay = 2000, uniqueName }) => {
           inherits: false,
         });
       } catch (e) {
-        console.log("tried to register twice but prevented");
+        console.log("");
       }
     });
   }, [WINDOW_SIZE, isEnabled]);

@@ -33,7 +33,7 @@ const PostDetail = ({ post }) => {
       }
     }
     if(text.includes("-[INFO]-") || text.includes("-[INFO2]-") || text.includes("-[INFO3]-") || text.includes("-[INFO4]-")) {
-      console.log("Hello");
+      // console.log("Hello");
   
       if(text.includes("-[INFO]-")) { // green
         info = "-[INFO]-";
@@ -47,7 +47,7 @@ const PostDetail = ({ post }) => {
       if(text.includes("-[INFO4]-")) { // pink
         info = "-[INFO4]-";
       } 
-      console.log(info);
+      // console.log(info);
       
       text = text.replace("-[INFO]-", ""); 
       text = text.replace("-[INFO2]-", ""); 

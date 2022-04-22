@@ -143,7 +143,7 @@ export default function Example({slug}) {
   const [id3, setId3] = useState("https://youtube.com/shorts/PC3uo8SwJTs");
 
   function handleChange(e) {
-    console.log(e.target.value);
+    // console.log(e.target.value);
 
     setId(getYouTubeID("https://youtube.com/shorts/mT8BIuKrzks"));
     setId2(getYouTubeID("https://youtube.com/shorts/mT8BIuKrzks"));
@@ -6965,8 +6965,8 @@ export default function Example({slug}) {
      
         getPostDetails(slug).then((result) => {
           setPostPhotos(result.postPhotos);
-          console.log(result.postPhotos);
-         console.log(product.images[1].src)
+        //   console.log(result.postPhotos);
+        //  console.log(product.images[1].src)
          // console.log(result.postPhotos[0].url)
          // product.images[1].src = result.postPhotos[0].url;
          setId(getYouTubeID("https://youtube.com/shorts/mT8BIuKrzks"));

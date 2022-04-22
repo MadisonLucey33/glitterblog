@@ -1,12 +1,12 @@
 import React from 'react'
 
 const InfoCard = ({text, index, obj, info}) => {
-  console.log("info card");
-  console.log(info)
+  // console.log("info card");
+  // console.log(info)
   let infoClass = "object-center absolute object-cover shadow-xl rounded-t-lg ";
 
     const getContentFragment = (index, text, obj) => {
-        console.log(text);
+        // console.log(text);
         let modifiedText = text;
     
         if (obj) {
@@ -24,11 +24,11 @@ const InfoCard = ({text, index, obj, info}) => {
         }
 
         if(text.includes("*")) {
-            console.log("Hello");
+            // console.log("Hello");
            // text = text.replace("*", ""); 
             const myText = text.split("*", 17); 
-            console.log(myText);
-            console.log(myText[1]);
+            // console.log(myText);
+            // console.log(myText[1]);
            // console.log()
             
             modifiedText = (<span><b>{myText[1]}</b><br></br><div className="pt-3">{myText[2]}</div></span>);
@@ -82,8 +82,8 @@ const InfoCard = ({text, index, obj, info}) => {
 
 
     const getColor = (info) => {
-        console.log("getcolor");
-        console.log(info)
+        // console.log("getcolor");
+        // console.log(info)
       switch (info) {
   
         case '-[INFO]-':

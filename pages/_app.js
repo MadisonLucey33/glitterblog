@@ -24,13 +24,13 @@ function MyApp({ Component, pageProps }) {
 
            date+= timeValue;
 
-       console.log(date)
+      //  console.log(date)
 
 
     ReactGa.initialize('UA-223881700-1')
     // to report page view 
     ReactGa.pageview('/')
-    console.log("page view")
+    // console.log("page view")
     ReactGa.set({userId: date}); // Set the user ID using signed-in user_id.
     ReactGa.set({dimension14: 'Likes dogs'});
   }, [])

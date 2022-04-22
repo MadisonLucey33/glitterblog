@@ -12,7 +12,7 @@ const MagicRainbowButton = ({
   ...delegated
 }) => {
   const transitionDelay = intervalDelay * 1.25;
-  console.log(uniqueName)
+  // console.log(uniqueName)
   
   const colors = useRainbow({ intervalDelay, uniqueName });
 
