@@ -5023,6 +5023,31 @@ export default function Example({slug}) {
                 <div className="hidden mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
                   <Tab.List className="grid grid-cols-4 gap-6">
                     {/* {product.images.map((image) => ( */}
+
+
+                    <Tab
+                        // key={image.id}
+                        className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
+                      >
+                        {({ selected }) => (
+                          <>
+                            
+                            <span className="absolute inset-0 rounded-md overflow-hidden">
+                              <img src={"https://media.graphassets.com/h6RgVcTcSn6MNt4dgEMS"} alt="" className="w-full h-full object-center object-cover" />
+                            </span>
+                            <span
+                              className={classNames(
+                                selected ? 'ring-indigo-500' : 'ring-transparent',
+                                'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
+                              )}
+                              aria-hidden="true"
+                            />
+                          </>
+                        )}
+                      </Tab>
+
+
+
                       <Tab
                         // key={image.id}
                         className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
@@ -5031,7 +5056,77 @@ export default function Example({slug}) {
                           <>
                             
                             <span className="absolute inset-0 rounded-md overflow-hidden">
-                              <img src={"https://media.graphassets.com/NZ6GGLyYTsmBjqcSDSWH"} alt="" className="w-full h-full object-center object-cover" />
+                              <img src={"https://media.graphassets.com/GdsrPlZREWKoZqCJjhLg"} alt="" className="w-full h-full object-center object-cover" />
+                            </span>
+                            <span
+                              className={classNames(
+                                selected ? 'ring-indigo-500' : 'ring-transparent',
+                                'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
+                              )}
+                              aria-hidden="true"
+                            />
+                          </>
+                        )}
+                      </Tab>
+
+
+
+                      <Tab
+                        // key={image.id}
+                        className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
+                      >
+                        {({ selected }) => (
+                          <>
+                            
+                            <span className="absolute inset-0 rounded-md overflow-hidden">
+                              <img src={"https://media.graphassets.com/P2aQFpIvSaLevDoe7RDR"} alt="" className="w-full h-full object-center object-cover" />
+                            </span>
+                            <span
+                              className={classNames(
+                                selected ? 'ring-indigo-500' : 'ring-transparent',
+                                'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
+                              )}
+                              aria-hidden="true"
+                            />
+                          </>
+                        )}
+                      </Tab>
+
+
+                      
+                      <Tab
+                        // key={image.id}
+                        className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
+                      >
+                        {({ selected }) => (
+                          <>
+                            
+                            <span className="absolute inset-0 rounded-md overflow-hidden">
+                              <img src={"https://media.graphassets.com/7jKL07oRYK8B2mEsyTfP"} alt="" className="w-full h-full object-center object-cover" />
+                            </span>
+                            <span
+                              className={classNames(
+                                selected ? 'ring-indigo-500' : 'ring-transparent',
+                                'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
+                              )}
+                              aria-hidden="true"
+                            />
+                          </>
+                        )}
+                      </Tab>
+
+
+
+
+                      <Tab
+                        // key={image.id}
+                        className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
+                      >
+                        {({ selected }) => (
+                          <>
+                            
+                            <span className="absolute inset-0 rounded-md overflow-hidden">
+                              <img src={"https://media.graphassets.com/uxznR0nRRSqcYKP5Lsel"} alt="" className="w-full h-full object-center object-cover" />
                             </span>
                             <span
                               className={classNames(
@@ -5066,6 +5161,7 @@ export default function Example({slug}) {
                         )}
                       </Tab>
 
+
                       <Tab
                         // key={image.id}
                         className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
@@ -5074,7 +5170,7 @@ export default function Example({slug}) {
                           <>
                             
                             <span className="absolute inset-0 rounded-md overflow-hidden">
-                              <img src={"https://media.graphassets.com/h6RgVcTcSn6MNt4dgEMS"} alt="" className="w-full h-full object-center object-cover" />
+                              <img src={"https://media.graphassets.com/E2gAchNAS6GHN5EY7bMf"} alt="" className="w-full h-full object-center object-cover" />
                             </span>
                             <span
                               className={classNames(
@@ -5086,6 +5182,34 @@ export default function Example({slug}) {
                           </>
                         )}
                       </Tab>
+
+
+
+                      <Tab
+                        // key={image.id}
+                        className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
+                      >
+                        {({ selected }) => (
+                          <>
+                            
+                            <span className="absolute inset-0 rounded-md overflow-hidden">
+                              <img src={"https://media.graphassets.com/NZ6GGLyYTsmBjqcSDSWH"} alt="" className="w-full h-full object-center object-cover" />
+                            </span>
+                            <span
+                              className={classNames(
+                                selected ? 'ring-indigo-500' : 'ring-transparent',
+                                'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
+                              )}
+                              aria-hidden="true"
+                            />
+                          </>
+                        )}
+                      </Tab>
+
+
+                    
+
+                    
 
 
                       {/* <Tab
@@ -5132,7 +5256,7 @@ export default function Example({slug}) {
                       </Tab> */}
 
 
-                      <Tab
+                      {/* <Tab
                         // key={image.id}
                         className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
                       >
@@ -5151,7 +5275,7 @@ export default function Example({slug}) {
                             />
                           </>
                         )}
-                      </Tab>
+                      </Tab> */}
 
 
                       {/* <Tab
@@ -5175,7 +5299,7 @@ export default function Example({slug}) {
                         )}
                       </Tab> */}
 
-                      <Tab
+                      {/* <Tab
                         // key={image.id}
                         className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
                       >
@@ -5194,112 +5318,76 @@ export default function Example({slug}) {
                             />
                           </>
                         )}
-                      </Tab>
+                      </Tab> */}
 
 
-                      <Tab
-                        // key={image.id}
-                        className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
-                      >
-                        {({ selected }) => (
-                          <>
-                            
-                            <span className="absolute inset-0 rounded-md overflow-hidden">
-                              <img src={"https://media.graphassets.com/P2aQFpIvSaLevDoe7RDR"} alt="" className="w-full h-full object-center object-cover" />
-                            </span>
-                            <span
-                              className={classNames(
-                                selected ? 'ring-indigo-500' : 'ring-transparent',
-                                'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
-                              )}
-                              aria-hidden="true"
-                            />
-                          </>
-                        )}
-                      </Tab>
+                   
 
 
-                      <Tab
-                        // key={image.id}
-                        className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
-                      >
-                        {({ selected }) => (
-                          <>
-                            
-                            <span className="absolute inset-0 rounded-md overflow-hidden">
-                              <img src={"https://media.graphassets.com/7jKL07oRYK8B2mEsyTfP"} alt="" className="w-full h-full object-center object-cover" />
-                            </span>
-                            <span
-                              className={classNames(
-                                selected ? 'ring-indigo-500' : 'ring-transparent',
-                                'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
-                              )}
-                              aria-hidden="true"
-                            />
-                          </>
-                        )}
-                      </Tab>
 
 
-                      <Tab
-                        // key={image.id}
-                        className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
-                      >
-                        {({ selected }) => (
-                          <>
-                            
-                            <span className="absolute inset-0 rounded-md overflow-hidden">
-                              <img src={"https://media.graphassets.com/uxznR0nRRSqcYKP5Lsel"} alt="" className="w-full h-full object-center object-cover" />
-                            </span>
-                            <span
-                              className={classNames(
-                                selected ? 'ring-indigo-500' : 'ring-transparent',
-                                'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
-                              )}
-                              aria-hidden="true"
-                            />
-                          </>
-                        )}
-                      </Tab>
-
+                    
                       
 
 
-                      <Tab
-                        // key={image.id}
-                        className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
-                      >
-                        {({ selected }) => (
-                          <>
-                            
-                            <span className="absolute inset-0 rounded-md overflow-hidden">
-                              <img src={"https://media.graphassets.com/GdsrPlZREWKoZqCJjhLg"} alt="" className="w-full h-full object-center object-cover" />
-                            </span>
-                            <span
-                              className={classNames(
-                                selected ? 'ring-indigo-500' : 'ring-transparent',
-                                'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
-                              )}
-                              aria-hidden="true"
-                            />
-                          </>
-                        )}
-                      </Tab>
+                   
                   
                   
                   </Tab.List>
                 </div>
     
                 <Tab.Panels className="w-full aspect-w-1 aspect-h-1">
-                 
-                    <Tab.Panel key={1}>
+
+                <Tab.Panel key={1}>
                       <img
-                        src={"https://media.graphassets.com/NZ6GGLyYTsmBjqcSDSWH"}
+                        src={"https://media.graphassets.com/h6RgVcTcSn6MNt4dgEMS"}
                         alt={"hey"}
                         className="w-full h-full object-center object-cover sm:rounded-lg"
                       />
                       
                     </Tab.Panel>
+
+
+                    <Tab.Panel key={1}>
+                      <img
+                        src={"https://media.graphassets.com/GdsrPlZREWKoZqCJjhLg"}
+                        alt={"hey"}
+                        className="w-full h-full object-center object-cover sm:rounded-lg"
+                      />
+                      
+                    </Tab.Panel>
+
+
+                    <Tab.Panel key={1}>
+                      <img
+                        src={"https://media.graphassets.com/P2aQFpIvSaLevDoe7RDR"}
+                        alt={"hey"}
+                        className="w-full h-full object-center object-cover sm:rounded-lg"
+                      />
+                      
+                    </Tab.Panel>
+
+
+                    <Tab.Panel key={1}>
+                      <img
+                        src={"https://media.graphassets.com/7jKL07oRYK8B2mEsyTfP"}
+                        alt={"hey"}
+                        className="w-full h-full object-center object-cover sm:rounded-lg"
+                      />
+                      
+                    </Tab.Panel>
+
+
+
+                    <Tab.Panel key={1}>
+                      <img
+                        src={"https://media.graphassets.com/uxznR0nRRSqcYKP5Lsel"}
+                        alt={"hey"}
+                        className="w-full h-full object-center object-cover sm:rounded-lg"
+                      />
+                      
+                    </Tab.Panel>
+
 
                     <Tab.Panel key={1}>
                       <img
@@ -5312,12 +5400,26 @@ export default function Example({slug}) {
 
                     <Tab.Panel key={1}>
                       <img
-                        src={"https://media.graphassets.com/h6RgVcTcSn6MNt4dgEMS"}
+                        src={"https://media.graphassets.com/E2gAchNAS6GHN5EY7bMf"}
                         alt={"hey"}
                         className="w-full h-full object-center object-cover sm:rounded-lg"
                       />
                       
                     </Tab.Panel>
+
+                 
+                    <Tab.Panel key={1}>
+                      <img
+                        src={"https://media.graphassets.com/NZ6GGLyYTsmBjqcSDSWH"}
+                        alt={"hey"}
+                        className="w-full h-full object-center object-cover sm:rounded-lg"
+                      />
+                      
+                    </Tab.Panel>
+
+                   
+
+                 
 
 
                     {/* <Tab.Panel key={1}>
@@ -5340,14 +5442,14 @@ export default function Example({slug}) {
                     </Tab.Panel> */}
 
 
-                    <Tab.Panel key={1}>
+                    {/* <Tab.Panel key={1}>
                       <img
                         src={"https://media.graphassets.com/iwa8J8YRtm5EGlQKOAJK"}
                         alt={"hey"}
                         className="w-full h-full object-center object-cover sm:rounded-lg"
                       />
                       
-                    </Tab.Panel>
+                    </Tab.Panel> */}
 
 
                     {/* <Tab.Panel key={1}>
@@ -5360,52 +5462,24 @@ export default function Example({slug}) {
                     </Tab.Panel> */}
 
 
-                    <Tab.Panel key={1}>
+                    {/* <Tab.Panel key={1}>
                       <img
                         src={"https://media.graphassets.com/QYethKLESS6Xd0HL9sfr"}
                         alt={"hey"}
                         className="w-full h-full object-center object-cover sm:rounded-lg"
                       />
                       
-                    </Tab.Panel>
+                    </Tab.Panel> */}
 
-                    <Tab.Panel key={1}>
-                      <img
-                        src={"https://media.graphassets.com/P2aQFpIvSaLevDoe7RDR"}
-                        alt={"hey"}
-                        className="w-full h-full object-center object-cover sm:rounded-lg"
-                      />
-                      
-                    </Tab.Panel>
+                 
 
-                    <Tab.Panel key={1}>
-                      <img
-                        src={"https://media.graphassets.com/7jKL07oRYK8B2mEsyTfP"}
-                        alt={"hey"}
-                        className="w-full h-full object-center object-cover sm:rounded-lg"
-                      />
-                      
-                    </Tab.Panel>
+                   
 
-                    <Tab.Panel key={1}>
-                      <img
-                        src={"https://media.graphassets.com/uxznR0nRRSqcYKP5Lsel"}
-                        alt={"hey"}
-                        className="w-full h-full object-center object-cover sm:rounded-lg"
-                      />
-                      
-                    </Tab.Panel>
+                  
 
 
 
-                    <Tab.Panel key={1}>
-                      <img
-                        src={"https://media.graphassets.com/GdsrPlZREWKoZqCJjhLg"}
-                        alt={"hey"}
-                        className="w-full h-full object-center object-cover sm:rounded-lg"
-                      />
-                      
-                    </Tab.Panel>
+                   
                  
                 </Tab.Panels>
               </Tab.Group>
