@@ -31,7 +31,7 @@ const PostDetail = ({ post }) => {
         modifiedText = (<u key={index}>{text}</u>);
       }
     }
-    if(text.includes("-[INFO]-") || text.includes("-[INFO2]-") || text.includes("-[INFO3]-")) {
+    if(text.includes("-[INFO]-") || text.includes("-[INFO2]-") || text.includes("-[INFO3]-") || text.includes("-[INFO4]-")) {
       console.log("Hello");
   
       if(text.includes("-[INFO]-")) { // green
@@ -43,11 +43,15 @@ const PostDetail = ({ post }) => {
       if(text.includes("-[INFO3]-")) { // blue
         info = "-[INFO3]-";
       } 
+      if(text.includes("-[INFO4]-")) { // pink
+        info = "-[INFO4]-";
+      } 
       console.log(info);
       
       text = text.replace("-[INFO]-", ""); 
       text = text.replace("-[INFO2]-", ""); 
       text = text.replace("-[INFO3]-", ""); 
+      text = text.replace("-[INFO4]-", ""); 
      
       modifiedText = (<InfoCard text={text} index={index} obj={obj} info={info}/>);
     }
@@ -96,6 +100,10 @@ const PostDetail = ({ post }) => {
         return (<span>May 30, 2021</span>);
       case 'blog-9': // Tue June 1, 2021
         return (<span>June 01, 2021</span>);
+      case 'blog-10': // November 3, 2021 Las Vegas
+      return (<span>November 01, 2021</span>);
+      case 'blog-11': // November 3, 2021
+      return (<span>November 03, 2021</span>);
       default:
         return moment(post.createdAt).format('MMM DD, YYYY');
     }

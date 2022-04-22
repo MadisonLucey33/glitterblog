@@ -102,11 +102,18 @@ const PostCard = ({ post }) => {
         return (   <Link href={`/post/${post.slug}`}><Image   unoptimized
           loader={grpahCMSImageLoader} src={post.previewImage.url} alt=""   height={height}
           width={width} className={imageClass} /></Link>);
-      case 'blog-10': // Amazon Day 1
+      case 'blog-10': //Vegas
       imageClass = "object-center absolute object-cover shadow-xl rounded-t-lg  ";
       return (   <Link href={`/post/${post.slug}`}><Image   unoptimized
         loader={grpahCMSImageLoader} src={post.previewImage.url} alt=""   height={height}
         width={width} className={imageClass} /></Link>);
+
+      case 'blog-11': // TEDx
+      imageClass = "object-center absolute object-cover shadow-xl rounded-t-lg  ";
+      return (   <Link href={`/post/${post.slug}`}><Image   unoptimized
+        loader={grpahCMSImageLoader} src={post.previewImage.url} alt=""   height={height}
+        width={width} className={imageClass} /></Link>);
+        
       default: 
           return (   <Link href={`/post/${post.slug}`}><Image   unoptimized
             loader={grpahCMSImageLoader} src={post.featuredImage.url} alt=""   height={height}
@@ -139,6 +146,10 @@ const PostCard = ({ post }) => {
           return (<span>May 30, 2021</span>);
         case 'blog-9': // Tue June 1, 2021
           return (<span>June 01, 2021</span>);
+        case 'blog-10': // Tue June 1, 2021 Las Vegas
+          return (<span>November 01, 2021</span>);
+        case 'blog-11': // Tue June 1, 2021 TEDx
+          return (<span>November 03, 2021</span>);
         default:
           return (moment(post.createdAt).format('MMM DD, YYYY'));
       }

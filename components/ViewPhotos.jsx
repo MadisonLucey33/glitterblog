@@ -140,12 +140,14 @@ export default function Example({slug}) {
 
   const [id, setId] = useState("https://youtube.com/shorts/mT8BIuKrzks");
   const [id2, setId2] = useState("https://youtube.com/shorts/sEt4PLfmnA8");
+  const [id3, setId3] = useState("https://youtube.com/shorts/PC3uo8SwJTs");
 
   function handleChange(e) {
     console.log(e.target.value);
 
     setId(getYouTubeID("https://youtube.com/shorts/mT8BIuKrzks"));
     setId2(getYouTubeID("https://youtube.com/shorts/mT8BIuKrzks"));
+    setId3(getYouTubeID("https://youtube.com/shorts/PC3uo8SwJTs"));
   }
   const opts = {
     height: "390",
@@ -6313,6 +6315,639 @@ export default function Example({slug}) {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     case 'blog-11': // TEDx November 3rd 2021
+     return (
+      <div className="bg-white ">
+        <div className="max-w-2xl mx-auto   px-4 sm:pt-12 sm:pb-6 sm:px-6 lg:max-w-7xl lg:px-8">
+          <div className="lg:grid lg:grid-cols-1 lg:gap-x-8 lg:items-start">
+            {/* Image gallery */}
+            <Tab.Group as="div" className="flex flex-col-reverse">
+              {/* Image selector */}
+              <div className="hidden mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
+                <Tab.List className="grid grid-cols-4 gap-6">
+                  {/* {product.images.map((image) => ( */}
+
+
+                  <Tab
+                      // key={image.id}
+                      className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
+                    >
+                      {({ selected }) => (
+                        <>
+                          
+                          <span className="absolute inset-0 rounded-md overflow-hidden">
+                            <img src={"https://media.graphassets.com/cSJhLR8Som2WKzjXLZFz"} alt="" className="w-full h-full object-center object-cover" />
+                          </span>
+                          <span
+                            className={classNames(
+                              selected ? 'ring-indigo-500' : 'ring-transparent',
+                              'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
+                            )}
+                            aria-hidden="true"
+                          />
+                        </>
+                      )}
+                    </Tab>
+
+
+                    <Tab
+                      // key={image.id}
+                      className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
+                    >
+                      {({ selected }) => (
+                        <>
+                          
+                          <span className="absolute inset-0 rounded-md overflow-hidden">
+                            <img src={"https://media.graphassets.com/2UsuQi3FS2uvmEYpnQ8Y"} alt="" className="w-full h-full object-center object-cover" />
+                          </span>
+                          <span
+                            className={classNames(
+                              selected ? 'ring-indigo-500' : 'ring-transparent',
+                              'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
+                            )}
+                            aria-hidden="true"
+                          />
+                        </>
+                      )}
+                    </Tab>
+
+
+
+                
+
+                
+                    <Tab
+                      // key={image.id}
+                      className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
+                    >
+                      {({ selected }) => (
+                        <>
+                          
+                          <span className="absolute inset-0 rounded-md overflow-hidden">
+                            <img src={"https://media.graphassets.com/0BbQSqqpSc63kwa3Pmtv"} alt="" className="w-full h-full object-center object-cover" />
+                          </span>
+                          <span
+                            className={classNames(
+                              selected ? 'ring-indigo-500' : 'ring-transparent',
+                              'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
+                            )}
+                            aria-hidden="true"
+                          />
+                        </>
+                      )}
+                    </Tab>
+
+                    <Tab
+                      // key={image.id}
+                      className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
+                    >
+                      {({ selected }) => (
+                        <>
+                          
+                          <span className="absolute inset-0 rounded-md overflow-hidden">
+                            <img src={"https://media.graphassets.com/Bspw3WDzRNCgyJBfTDo9"} alt="" className="w-full h-full object-center object-cover" />
+                          </span>
+                          <span
+                            className={classNames(
+                              selected ? 'ring-indigo-500' : 'ring-transparent',
+                              'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
+                            )}
+                            aria-hidden="true"
+                          />
+                        </>
+                      )}
+                    </Tab>
+
+
+                    <Tab
+                      // key={image.id}
+                      className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
+                    >
+                      {({ selected }) => (
+                        <>
+                          
+                          <span className="absolute inset-0 rounded-md overflow-hidden">
+                            <img src={"https://media.graphassets.com/lEE8kEXSRWBzJqefphmQ"} alt="" className="w-full h-full object-center object-cover" />
+                          </span>
+                          <span
+                            className={classNames(
+                              selected ? 'ring-indigo-500' : 'ring-transparent',
+                              'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
+                            )}
+                            aria-hidden="true"
+                          />
+                        </>
+                      )}
+                    </Tab>
+
+
+
+                    <Tab
+                      // key={image.id}
+                      className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
+                    >
+                      {({ selected }) => (
+                        <>
+                          
+                          <span className="absolute inset-0 rounded-md overflow-hidden">
+                            <img src={"https://media.graphassets.com/0DwsjwzrT02f4y8cFTCQ"} alt="" className="w-full h-full object-center object-cover" />
+                          </span>
+                          <span
+                            className={classNames(
+                              selected ? 'ring-indigo-500' : 'ring-transparent',
+                              'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
+                            )}
+                            aria-hidden="true"
+                          />
+                        </>
+                      )}
+                    </Tab>
+
+
+                    {/* <Tab
+                      // key={image.id}
+                      className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
+                    >
+                      {({ selected }) => (
+                        <>
+                          
+                          <span className="absolute inset-0 rounded-md overflow-hidden">
+                            <img src={"https://media.graphassets.com/xjdzXvHbSjmitxFgXouj"} alt="" className="w-full h-full object-center object-cover" />
+                          </span>
+                          <span
+                            className={classNames(
+                              selected ? 'ring-indigo-500' : 'ring-transparent',
+                              'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
+                            )}
+                            aria-hidden="true"
+                          />
+                        </>
+                      )}
+                    </Tab> */}
+
+
+                 
+
+
+                    <Tab
+                      // key={image.id}
+                      className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
+                    >
+                      {({ selected }) => (
+                        <>
+                          
+                          <span className="absolute inset-0 rounded-md overflow-hidden">
+                            <img src={"https://media.graphassets.com/r9xeCT4mRnydCJ82lY8v"} alt="" className="w-full h-full object-center object-cover" />
+                          </span>
+                          <span
+                            className={classNames(
+                              selected ? 'ring-indigo-500' : 'ring-transparent',
+                              'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
+                            )}
+                            aria-hidden="true"
+                          />
+                        </>
+                      )}
+                    </Tab>
+
+
+
+                    <Tab
+                      // key={image.id}
+                      className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
+                    >
+                      {({ selected }) => (
+                        <>
+                          
+                          <span className="absolute inset-0 rounded-md overflow-hidden">
+                            <img src={"https://media.graphassets.com/mkECFw1SYGGiy7Msa7OA"} alt="" className="w-full h-full object-center object-cover" />
+                          </span>
+                          <span
+                            className={classNames(
+                              selected ? 'ring-indigo-500' : 'ring-transparent',
+                              'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
+                            )}
+                            aria-hidden="true"
+                          />
+                        </>
+                      )}
+                    </Tab>
+
+
+
+                    <Tab
+                      // key={image.id}
+                      className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
+                    >
+                      {({ selected }) => (
+                        <>
+                          
+                          <span className="absolute inset-0 rounded-md overflow-hidden">
+                            <img src={"https://media.graphassets.com/obIVQUi9R2MIHVCkOOVg"} alt="" className="w-full h-full object-center object-cover" />
+                          </span>
+                          <span
+                            className={classNames(
+                              selected ? 'ring-indigo-500' : 'ring-transparent',
+                              'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
+                            )}
+                            aria-hidden="true"
+                          />
+                        </>
+                      )}
+                    </Tab>
+
+
+                   
+
+
+
+
+
+
+                    
+                
+                </Tab.List>
+              </div>
+  
+              <Tab.Panels className="w-full aspect-w-1 aspect-h-1">
+
+                 <Tab.Panel key={1}>
+                    <img
+                      src={"https://media.graphassets.com/cSJhLR8Som2WKzjXLZFz"}
+                      alt={"hey"}
+                      className="w-full h-full object-center object-cover sm:rounded-lg"
+                    />
+                    
+                  </Tab.Panel>
+
+               
+                
+                  <Tab.Panel key={1}>
+                    <img
+                      src={"https://media.graphassets.com/2UsuQi3FS2uvmEYpnQ8Y"}
+                      alt={"hey"}
+                      className="w-full h-full object-center object-cover sm:rounded-lg"
+                    />
+                    
+                  </Tab.Panel>
+                 
+
+                  <Tab.Panel key={1}>
+                    <img
+                      src={"https://media.graphassets.com/0BbQSqqpSc63kwa3Pmtv"}
+                      alt={"hey"}
+                      className="w-full h-full object-center object-cover sm:rounded-lg"
+                    />
+                    
+                  </Tab.Panel>
+
+                  <Tab.Panel key={1}>
+                    <img
+                      src={"https://media.graphassets.com/Bspw3WDzRNCgyJBfTDo9"}
+                      alt={"hey"}
+                      className="w-full h-full object-center object-cover sm:rounded-lg"
+                    />
+                    
+                  </Tab.Panel>
+
+                  <Tab.Panel key={1}>
+                    <img
+                      src={"https://media.graphassets.com/lEE8kEXSRWBzJqefphmQ"}
+                      alt={"hey"}
+                      className="w-full h-full object-center object-cover sm:rounded-lg"
+                    />
+                    
+                  </Tab.Panel>
+
+
+                  <Tab.Panel key={1}>
+                    <img
+                      src={"https://media.graphassets.com/0DwsjwzrT02f4y8cFTCQ"}
+                      alt={"hey"}
+                      className="w-full h-full object-center object-cover sm:rounded-lg"
+                    />
+                    
+                  </Tab.Panel>
+
+                  {/* <Tab.Panel key={1}>
+                    <img
+                      src={"https://media.graphassets.com/xjdzXvHbSjmitxFgXouj"}
+                      alt={"hey"}
+                      className="w-full h-full object-center object-cover sm:rounded-lg"
+                    />
+                    
+                  </Tab.Panel> */}
+
+
+              
+
+                  <Tab.Panel key={1}>
+                    <img
+                      src={"https://media.graphassets.com/r9xeCT4mRnydCJ82lY8v"}
+                      alt={"hey"}
+                      className="w-full h-full object-center object-cover sm:rounded-lg"
+                    />
+                    
+                  </Tab.Panel>
+
+
+                  <Tab.Panel key={1} >
+{/*                       
+                      <input
+                        type="text"
+                      
+                        required
+                        placeholder="URL..."
+                      /> */}
+
+                      <YouTube videoId={id3} opts={opts} />
+                      </Tab.Panel>
+
+
+                  <Tab.Panel key={1}>
+                    <img
+                      src={"https://media.graphassets.com/obIVQUi9R2MIHVCkOOVg"}
+                      alt={"hey"}
+                      className="w-full h-full object-center object-cover sm:rounded-lg"
+                    />
+                    
+                  </Tab.Panel>
+
+                
+
+
+               
+               
+              </Tab.Panels>
+            </Tab.Group>
+  
+         
+          </div>
+        </div>
+      </div>
+    )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    case 'blog-12': // Blog Update April 22 2022
+    return (
+     <div className="bg-white ">
+       <div className="max-w-2xl mx-auto   px-4 sm:pt-12 sm:pb-6 sm:px-6 lg:max-w-7xl lg:px-8">
+         <div className="lg:grid lg:grid-cols-1 lg:gap-x-8 lg:items-start">
+           {/* Image gallery */}
+           <Tab.Group as="div" className="flex flex-col-reverse">
+             {/* Image selector */}
+             <div className="hidden mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
+               <Tab.List className="grid grid-cols-4 gap-6">
+                 {/* {product.images.map((image) => ( */}
+
+
+                 <Tab
+                     // key={image.id}
+                     className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
+                   >
+                     {({ selected }) => (
+                       <>
+                         
+                         <span className="absolute inset-0 rounded-md overflow-hidden">
+                           <img src={"https://media.graphassets.com/uXaBqMKzQBG8Xnr8YJT0"} alt="" className="w-full h-full object-center object-cover" />
+                         </span>
+                         <span
+                           className={classNames(
+                             selected ? 'ring-indigo-500' : 'ring-transparent',
+                             'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
+                           )}
+                           aria-hidden="true"
+                         />
+                       </>
+                     )}
+                   </Tab>
+
+                   <Tab
+                     // key={image.id}
+                     className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
+                   >
+                     {({ selected }) => (
+                       <>
+                         
+                         <span className="absolute inset-0 rounded-md overflow-hidden">
+                           <img src={"https://media.graphassets.com/v8el1vR7RdaAlbzYOQd0"} alt="" className="w-full h-full object-center object-cover" />
+                         </span>
+                         <span
+                           className={classNames(
+                             selected ? 'ring-indigo-500' : 'ring-transparent',
+                             'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
+                           )}
+                           aria-hidden="true"
+                         />
+                       </>
+                     )}
+                   </Tab>
+
+
+                     
+
+               </Tab.List>
+             </div>
+ 
+             <Tab.Panels className="w-full aspect-w-1 aspect-h-1 ">
+
+                <Tab.Panel key={1}>
+                   <img
+                     src={"https://media.graphassets.com/uXaBqMKzQBG8Xnr8YJT0"}
+                     alt={"hey"}
+                     className="w-3/5 h-full object-center object-cover sm:rounded-lg"
+                   />
+                   
+                 </Tab.Panel>
+
+
+                 <Tab.Panel key={1}>
+                   <img
+                     src={"https://media.graphassets.com/v8el1vR7RdaAlbzYOQd0"}
+                     alt={"hey"}
+                     className="w-full h-full object-center object-cover sm:rounded-lg"
+                   />
+                   
+                 </Tab.Panel>
+
+              
+             
+               
+
+
+              
+              
+             </Tab.Panels>
+           </Tab.Group>
+ 
+        
+         </div>
+       </div>
+     </div>
+   )
+
+
+
+
        default:
          return (<h1></h1>);
      }
@@ -6336,6 +6971,7 @@ export default function Example({slug}) {
          // product.images[1].src = result.postPhotos[0].url;
          setId(getYouTubeID("https://youtube.com/shorts/mT8BIuKrzks"));
          setId2(getYouTubeID("https://youtube.com/shorts/sEt4PLfmnA8"));
+         setId3(getYouTubeID("https://youtube.com/shorts/PC3uo8SwJTs"));
         });
       }, []);
 

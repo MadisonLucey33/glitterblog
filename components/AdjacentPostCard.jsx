@@ -13,7 +13,38 @@ import useSound from 'use-sound';
 
 const AdjacentPostCard = ({ post, position }) =>  {
   
-  
+  const getUpdatedDate = () => {
+    let slug = post.slug;
+
+    switch(slug) {
+      case 'blog-1': // May 20, 2021
+        return (<span>May 20, 2021</span>);
+      case 'blog-2': // Sat May 22, 2021
+        return (<span>May 22, 2021</span>);
+      case 'blog-3': // Sun May 24, 2021
+        return (<span>May 24, 2021</span>);
+      case 'blog-4': // Tue May 25, 2021
+        return (<span>May 25, 2021</span>);
+      case 'blog-5': // Wed May 26, 2021
+        return (<span>May 26, 2021</span>);
+      case 'blog-6': // Thurs May 27, 2021
+        return (<span>May 27, 2021</span>);
+      case 'blog-7': //  Sat May 29, 2021
+        return (<span>May 29, 2021</span>);
+      case 'blog-8': //  Sun May 30, 2021
+        return (<span>May 30, 2021</span>);
+      case 'blog-9': // Tue June 1, 2021
+        return (<span>June 01, 2021</span>);
+      case 'blog-10': // November 3, 2021 Las Vegas
+      return (<span>November 01, 2021</span>);
+      case 'blog-11': // November 3, 2021
+      return (<span>November 03, 2021</span>);
+      default:
+        return moment(post.createdAt).format('MMM DD, YYYY');
+    }
+
+};
+
   const [play] = useSound(boopSfx);
   return (
   
@@ -21,7 +52,7 @@ const AdjacentPostCard = ({ post, position }) =>  {
     <div className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full h-72" style={{ backgroundImage: `url('${post.previewImage.url}')` }} />
     <div className="absolute rounded-lg bg-center bg-gradient-to-b opacity-50 from-gray-400 via-gray-700 to-black w-full h-72" />
     <div className="flex flex-col rounded-lg p-4 items-center justify-center absolute w-full h-full">
-      <p className="text-white text-shadow font-semibold text-xs">{moment(post.createdAt).format('MMM DD, YYYY')}</p>
+      <p className="text-white text-shadow font-semibold text-xs">{getUpdatedDate()}</p>
       <p className="text-white text-shadow font-semibold text-2xl text-center">{post.title}</p>
     </div>
     <Link href={`/post/${post.slug}`}><span className="z-10 cursor-pointer absolute w-full h-full" onClick={play} /></Link>
