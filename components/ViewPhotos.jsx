@@ -5088,7 +5088,7 @@ export default function Example({slug}) {
                       </Tab>
 
 
-                      <Tab
+                      {/* <Tab
                         // key={image.id}
                         className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
                       >
@@ -5107,10 +5107,10 @@ export default function Example({slug}) {
                             />
                           </>
                         )}
-                      </Tab>
+                      </Tab> */}
 
 
-                      <Tab
+                      {/* <Tab
                         // key={image.id}
                         className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
                       >
@@ -5129,7 +5129,7 @@ export default function Example({slug}) {
                             />
                           </>
                         )}
-                      </Tab>
+                      </Tab> */}
 
 
                       <Tab
@@ -5154,7 +5154,7 @@ export default function Example({slug}) {
                       </Tab>
 
 
-                      <Tab
+                      {/* <Tab
                         // key={image.id}
                         className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
                       >
@@ -5173,7 +5173,7 @@ export default function Example({slug}) {
                             />
                           </>
                         )}
-                      </Tab>
+                      </Tab> */}
 
                       <Tab
                         // key={image.id}
@@ -5183,7 +5183,7 @@ export default function Example({slug}) {
                           <>
                             
                             <span className="absolute inset-0 rounded-md overflow-hidden">
-                              <img src={"https://media.graphassets.com/5ojPcKHKQjygXKDq2QOt"} alt="" className="w-full h-full object-center object-cover" />
+                              <img src={"https://media.graphassets.com/QYethKLESS6Xd0HL9sfr"} alt="" className="w-full h-full object-center object-cover" />
                             </span>
                             <span
                               className={classNames(
@@ -5320,24 +5320,24 @@ export default function Example({slug}) {
                     </Tab.Panel>
 
 
-                    <Tab.Panel key={1}>
+                    {/* <Tab.Panel key={1}>
                       <img
                         src={"https://media.graphassets.com/gp5UWPTCS4ijvUiBeMum"}
                         alt={"hey"}
                         className="w-full h-full object-center object-cover sm:rounded-lg"
                       />
                       
-                    </Tab.Panel>
+                    </Tab.Panel> */}
 
 
-                    <Tab.Panel key={1}>
+                    {/* <Tab.Panel key={1}>
                       <img
                         src={"https://media.graphassets.com/oSSSWcE5T4KNEhC7rNPS"}
                         alt={"hey"}
                         className="w-full h-full object-center object-cover sm:rounded-lg"
                       />
                       
-                    </Tab.Panel>
+                    </Tab.Panel> */}
 
 
                     <Tab.Panel key={1}>
@@ -5350,19 +5350,19 @@ export default function Example({slug}) {
                     </Tab.Panel>
 
 
-                    <Tab.Panel key={1}>
+                    {/* <Tab.Panel key={1}>
                       <img
                         src={"https://media.graphassets.com/uLKZKu8TrCkvlIoCAU3o"}
                         alt={"hey"}
                         className="w-full h-full object-center object-cover sm:rounded-lg"
                       />
                       
-                    </Tab.Panel>
+                    </Tab.Panel> */}
 
 
                     <Tab.Panel key={1}>
                       <img
-                        src={"https://media.graphassets.com/5ojPcKHKQjygXKDq2QOt"}
+                        src={"https://media.graphassets.com/QYethKLESS6Xd0HL9sfr"}
                         alt={"hey"}
                         className="w-full h-full object-center object-cover sm:rounded-lg"
                       />
