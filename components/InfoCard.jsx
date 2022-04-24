@@ -86,7 +86,7 @@ const InfoCard = ({text, index, obj, info}) => {
         // console.log(info)
       switch (info) {
   
-        case '-[INFO]-':
+        case '-[INFO]-': // green
           infoClass = "object-top absolute object-cover shadow-xl rounded-t-lg ";
           
           myContainer = {
@@ -100,7 +100,7 @@ const InfoCard = ({text, index, obj, info}) => {
             padding: "24px 32px",
             fontSize: "17px",
             marginTop: "48px",
-            marginBottom: "64px",
+            marginBottom: "43px",
             borderLeft: "5px solid rgb(0, 204, 136)",  // green: rgb(0, 204, 136)    blue hsl(245deg, 100%, 60%)
             borderRadius: "6px 6px 6px 3px",
         }
@@ -115,7 +115,7 @@ const InfoCard = ({text, index, obj, info}) => {
   
         </div>
         </div>)
-        case '-[INFO2]-':
+        case '-[INFO2]-': // yellow
           infoClass = "object-top absolute object-cover shadow-xl rounded-t-lg ";
 
                 
@@ -130,7 +130,7 @@ const InfoCard = ({text, index, obj, info}) => {
             padding: "24px 32px",
             fontSize: "17px",
             marginTop: "48px",
-            marginBottom: "64px",
+            marginBottom: "43px",
             borderLeft: "5px solid rgb(255, 157, 0)",  // green: rgb(0, 204, 136)    blue hsl(245deg, 100%, 60%)
             borderRadius: "6px 6px 6px 3px",
         }
@@ -148,7 +148,7 @@ const InfoCard = ({text, index, obj, info}) => {
 
 
 
-        case '-[INFO3]-':
+        case '-[INFO3]-': // blue
           infoClass = "object-top absolute object-cover shadow-xl rounded-t-lg ";
 
                 
@@ -163,7 +163,7 @@ const InfoCard = ({text, index, obj, info}) => {
             padding: "24px 32px",
             fontSize: "17px",
             marginTop: "48px",
-            marginBottom: "64px",
+            marginBottom: "43px",
             borderLeft: "5px solid hsl(245deg, 100%, 60%)",  // green: rgb(0, 204, 136)    blue hsl(245deg, 100%, 60%)
             borderRadius: "6px 6px 6px 3px",
         }
@@ -200,7 +200,7 @@ const InfoCard = ({text, index, obj, info}) => {
             padding: "24px 32px",
             fontSize: "17px",
             marginTop: "48px",
-            marginBottom: "64px",
+            marginBottom: "43px",
             borderLeft: "5px solid rgb(255, 85, 85)",  // green: rgb(0, 204, 136)    blue hsl(245deg, 100%, 60%)
             borderRadius: "6px 6px 6px 3px",
         }
@@ -211,7 +211,10 @@ const InfoCard = ({text, index, obj, info}) => {
 
           return(<div style={myContainer}>
               <span className="pr-0.6 pl-0.9" key={index} style={myIcon}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgb(255, 85, 85)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+              {/* <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="rgb(255, 85, 85)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg> */}
+              <svg xmlns="http://www.w3.org/2000/svg"  
+              style={{height: "1.8rem", width: "1.8rem"}} 
+              viewBox="0 0 24 24" fill="none" stroke="rgb(255, 85, 85)" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="arcs"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
               </span>      
               <div >
               <div>{getContentFragment(index, text, obj, info)}</div>
@@ -228,7 +231,7 @@ const InfoCard = ({text, index, obj, info}) => {
 
      
     }
-        console.log(info)
+        
       return (getColor(info)
   )
 }
