@@ -21,7 +21,12 @@ const PostDetail = ({ post }) => {
 
     if (obj) {
       if (obj.bold) {
+        if (obj.bold && obj.underline) {
         modifiedText = (<span key={index} className="font-extrabold text-xl wotfard" style={{color: "rgb(44, 11, 142)", }}>{text}</span>);
+        } else {
+          modifiedText = (<span key={index} className="font-extrabold wotfard" >{text}</span>);
+        }
+
       }
 
       if (obj.italic) {
@@ -29,7 +34,11 @@ const PostDetail = ({ post }) => {
       }
 
       if (obj.underline) {
+        if (obj.underline && obj.bold) {
+          modifiedText = (<span key={index} className="font-extrabold text-xl wotfard" style={{color: "rgb(44, 11, 142)", }}>{text}</span>);
+        } else {
         modifiedText = (<u key={index}>{text}</u>);
+        }
       }
     }
     if(text.includes("-[INFO]-") || text.includes("-[INFO2]-") || text.includes("-[INFO3]-") || text.includes("-[INFO4]-")) {
