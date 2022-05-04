@@ -565,7 +565,7 @@ export default function Example({slug}) {
                           <>
                             
                             <span className="absolute inset-0 rounded-md overflow-hidden">
-                              <img src={"https://media.graphassets.com/utjrlrwQHSeQRp0YTUs1"} alt="" className="w-full h-full object-center object-cover" />
+                              <img src={"https://media.graphassets.com/NC4vc4sJTSKZd3F0hQRo"} alt="" className="w-full h-full object-center object-cover" />
                             </span>
                             <span
                               className={classNames(
@@ -630,7 +630,7 @@ export default function Example({slug}) {
                           <>
                             
                             <span className="absolute inset-0 rounded-md overflow-hidden">
-                              <img src={"https://media.graphassets.com/FCwXjyQvQr23IMrPqS1i"} alt="" className="w-full h-full object-center object-cover" />
+                              <img src={"https://media.graphassets.com/N0ha1ajSTlCHGBh776ia"} alt="" className="w-full h-full object-center object-cover" />
                             </span>
                             <span
                               className={classNames(
@@ -741,7 +741,7 @@ export default function Example({slug}) {
                           <>
                             
                             <span className="absolute inset-0 rounded-md overflow-hidden">
-                              <img src={"https://media.graphassets.com/rPwn8ujhTDCnL3rJstkm"} alt="" className="w-full h-full object-center object-cover" />
+                              <img src={"https://media.graphassets.com/wJVz66YmR92e9nPoFHz8"} alt="" className="w-full h-full object-center object-cover" />
                             </span>
                             <span
                               className={classNames(
@@ -816,7 +816,7 @@ export default function Example({slug}) {
 
                     <Tab.Panel key={1}>
                       <img
-                        src={"https://media.graphassets.com/utjrlrwQHSeQRp0YTUs1"} // cotton candy
+                        src={"https://media.graphassets.com/NC4vc4sJTSKZd3F0hQRo"} // cotton candy
                         alt={"hey"}
                         className="w-full h-full object-center object-cover sm:rounded-lg"
                       />
@@ -845,7 +845,7 @@ export default function Example({slug}) {
 
                     <Tab.Panel key={1}>
                       <img
-                        src={"https://media.graphassets.com/FCwXjyQvQr23IMrPqS1i"} // cotton candy
+                        src={"https://media.graphassets.com/N0ha1ajSTlCHGBh776ia"} // cotton candy
                         alt={"hey"}
                         className="w-full h-full object-center object-cover sm:rounded-lg"
                       />
@@ -894,7 +894,7 @@ export default function Example({slug}) {
 
                     <Tab.Panel key={1}>
                       <img
-                        src={"https://media.graphassets.com/rPwn8ujhTDCnL3rJstkm"} // cotton candy
+                        src={"https://media.graphassets.com/wJVz66YmR92e9nPoFHz8"} // cotton candy
                         alt={"hey"}
                         className="w-full h-full object-center object-cover sm:rounded-lg"
                       />
@@ -1154,7 +1154,7 @@ export default function Example({slug}) {
                           <>
                             
                             <span className="absolute inset-0 rounded-md overflow-hidden">
-                              <img src={"https://media.graphassets.com/JsVlmboPS6CTwQiaXbqO"} alt="" className="w-full h-full object-center object-cover" />
+                              <img src={"https://media.graphassets.com/GYpl30q6Rmdmzoh07fBQ"} alt="" className="w-full h-full object-center object-cover" />
                             </span>
                             <span
                               className={classNames(
@@ -1413,7 +1413,7 @@ export default function Example({slug}) {
 
                     <Tab.Panel key={1}>
                       <img
-                        src={"https://media.graphassets.com/JsVlmboPS6CTwQiaXbqO"}
+                        src={"https://media.graphassets.com/GYpl30q6Rmdmzoh07fBQ"}
                         alt={"hey"}
                         className="w-full h-full object-center object-cover sm:rounded-lg"
                       />
