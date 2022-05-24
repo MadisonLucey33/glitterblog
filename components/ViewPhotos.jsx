@@ -6868,7 +6868,7 @@ export default function Example({slug}) {
                        <>
                          
                          <span className="absolute inset-0 rounded-md overflow-hidden">
-                           <img src={"https://media.graphassets.com/uXaBqMKzQBG8Xnr8YJT0"} alt="" className="w-full h-full object-center object-cover" />
+                           <img src={"https://media.graphassets.com/output=format:jpg/nXnNJyCSiq1A8uWKOEWe"} alt="" className="w-full h-full object-center object-cover" />
                          </span>
                          <span
                            className={classNames(
@@ -6912,7 +6912,7 @@ export default function Example({slug}) {
 
                 <Tab.Panel key={1}>
                    <img
-                     src={"https://media.graphassets.com/uXaBqMKzQBG8Xnr8YJT0"}
+                     src={"https://media.graphassets.com/output=format:jpg/nXnNJyCSiq1A8uWKOEWe"}
                      alt={"hey"}
                      className="w-3/5 h-full object-center object-cover sm:rounded-lg"
                    />
