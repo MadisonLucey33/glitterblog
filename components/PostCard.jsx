@@ -113,6 +113,12 @@ const PostCard = ({ post }) => {
       return (   <Link href={`/post/${post.slug}`}><Image   unoptimized
         loader={grpahCMSImageLoader} src={post.previewImage.url} alt=""   height={height}
         width={width} className={imageClass} /></Link>);
+
+      case 'blog-12': // Game Changer
+        imageClass = "object-center absolute object-cover shadow-xl rounded-t-lg  ";
+        return (   <Link href={`/post/${post.slug}`}><Image   unoptimized
+          loader={grpahCMSImageLoader} src={post.previewImage.url} alt=""   height={height}
+          width={width} className={imageClass} /></Link>);
         
       default: 
           return (   <Link href={`/post/${post.slug}`}><Image   unoptimized
