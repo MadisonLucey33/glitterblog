@@ -37,6 +37,8 @@ const FeaturedPostCard = ({ post }) => { //hover:scale-105
         return (<span>November 01, 2021</span>);
       case 'blog-11': // Tue June 1, 2021
         return (<span>November 03, 2021</span>);
+      case 'blog-12': // April 22nd 2022
+        return (<span>August 05, 2022</span>);
       default:
         return moment(post.createdAt).format('MMM DD, YYYY');
     }

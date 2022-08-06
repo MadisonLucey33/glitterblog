@@ -111,9 +111,11 @@ const PostDetail = ({ post }) => {
       case 'blog-9': // Tue June 1, 2021
         return (<span>June 01, 2021</span>);
       case 'blog-10': // November 3, 2021 Las Vegas
-      return (<span>November 01, 2021</span>);
+        return (<span>November 01, 2021</span>);
       case 'blog-11': // November 3, 2021
-      return (<span>November 03, 2021</span>);
+        return (<span>November 03, 2021</span>);
+      case 'blog-12': // April 22nd 2022
+        return (<span>August 05, 2022</span>);
       default:
         return moment(post.createdAt).format('MMM DD, YYYY');
     }
