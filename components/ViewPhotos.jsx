@@ -141,6 +141,7 @@ export default function Example({slug}) {
   const [id, setId] = useState("https://youtube.com/shorts/mT8BIuKrzks");
   const [id2, setId2] = useState("https://youtube.com/shorts/sEt4PLfmnA8");
   const [id3, setId3] = useState("https://youtube.com/shorts/PC3uo8SwJTs");
+  const [id4, setId4] = useState("https://www.youtube.com/watch?v=SNojcZm-ITc");
 
   function handleChange(e) {
     // console.log(e.target.value);
@@ -148,6 +149,7 @@ export default function Example({slug}) {
     setId(getYouTubeID("https://youtube.com/shorts/mT8BIuKrzks"));
     setId2(getYouTubeID("https://youtube.com/shorts/mT8BIuKrzks"));
     setId3(getYouTubeID("https://youtube.com/shorts/PC3uo8SwJTs"));
+    setId4(getYouTubeID("https://www.youtube.com/watch?v=SNojcZm-ITc"));
   }
   const opts = {
     height: "390",
@@ -6905,7 +6907,112 @@ export default function Example({slug}) {
                    </Tab>
 
 
-                     
+
+
+
+
+
+                   <Tab
+                     // key={image.id}
+                     className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
+                   >
+                     {({ selected }) => (
+                       <>
+                         
+                         <span className="absolute inset-0 rounded-md overflow-hidden">
+                           <img src={"https://media.graphassets.com/8YOSN146RHKZdSa9v2E2"} alt="" className="w-full h-full object-center object-cover" />
+                         </span>
+                         <span
+                           className={classNames(
+                             selected ? 'ring-indigo-500' : 'ring-transparent',
+                             'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
+                           )}
+                           aria-hidden="true"
+                         />
+                       </>
+                     )}
+                   </Tab>
+
+                    
+
+                 
+
+
+                   <Tab
+                     // key={image.id}
+                     className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
+                   >
+                     {({ selected }) => (
+                       <>
+                         
+                         <span className="absolute inset-0 rounded-md overflow-hidden">
+                           <img src={"https://media.graphassets.com/GTI2W4MbQm2PJ9kcCmFK"} alt="" className="w-full h-full object-center object-cover" />
+                         </span>
+                         <span
+                           className={classNames(
+                             selected ? 'ring-indigo-500' : 'ring-transparent',
+                             'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
+                           )}
+                           aria-hidden="true"
+                         />
+                       </>
+                     )}
+                   </Tab>
+
+
+
+                 
+ <Tab
+                     // key={image.id}
+                     className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
+                   >
+                     {({ selected }) => (
+                       <>
+                         
+                         <span className="absolute inset-0 rounded-md overflow-hidden">
+                           <img src={"https://media.graphassets.com/hfREfkdSTCAptgL7gGKC"} alt="" className="w-full h-full object-center object-cover" />
+                         </span>
+                         <span
+                           className={classNames(
+                             selected ? 'ring-indigo-500' : 'ring-transparent',
+                             'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
+                           )}
+                           aria-hidden="true"
+                         />
+                       </>
+                     )}
+                   </Tab>
+
+
+
+
+
+
+
+                    {/* Video
+                      /> */}
+                       <Tab
+                        // key={image.id}
+                        className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
+                        onClick={handleChange}
+                      >
+                        {({ selected }) => (
+                          <>
+                            
+                            <span className="absolute inset-0 rounded-md overflow-hidden"  onClick={handleChange}>
+                              <img src={"https://media.graphassets.com/2jhvQdZSQTSLK3ofGP4v"} alt="" className="w-full h-full object-center object-cover" />
+                             
+                            </span>
+                            <span
+                              className={classNames(
+                                selected ? 'ring-indigo-500' : 'ring-transparent',
+                                'absolute inset-0 rounded-md ring-2 ring-offset-2 pointer-events-none'
+                              )}
+                              aria-hidden="true"
+                            />
+                          </>
+                        )}
+                      </Tab>
 
                </Tab.List>
              </div>
@@ -6931,10 +7038,67 @@ export default function Example({slug}) {
                    
                  </Tab.Panel>
 
+
+
+
+                 <Tab.Panel key={1}>
+                   <img
+                     src={"https://media.graphassets.com/8YOSN146RHKZdSa9v2E2"}
+                     alt={"hey"}
+                     className="w-full h-full object-center object-cover sm:rounded-lg"
+                   />
+                   
+                 </Tab.Panel>
+
+
+
+
+                 
+
+
+                 
+
+                 <Tab.Panel key={1}>
+                   <img
+                     src={"https://media.graphassets.com/GTI2W4MbQm2PJ9kcCmFK"}
+                     alt={"hey"}
+                     className="w-full h-full object-center object-cover sm:rounded-lg"
+                   />
+                   
+                 </Tab.Panel>
+
+
+                 
+
+
+                 <Tab.Panel key={1}>
+                   <img
+                     src={"https://media.graphassets.com/hfREfkdSTCAptgL7gGKC"}
+                     alt={"hey"}
+                     className="w-full h-full object-center object-cover sm:rounded-lg"
+                   />
+                   
+                 </Tab.Panel>
+                 
+
+
+                 
+
               
              
-               
+               {/*   Video 
+                      /> */}
+              <Tab.Panel key={1} >
+        {/*                       
+                      <input
+                        type="text"
+                      
+                        required
+                        placeholder="URL..."
+                      /> */}
 
+                      <YouTube videoId={id4} opts={opts} />
+                      </Tab.Panel>
 
               
               
@@ -6974,6 +7138,7 @@ export default function Example({slug}) {
          setId(getYouTubeID("https://youtube.com/shorts/mT8BIuKrzks"));
          setId2(getYouTubeID("https://youtube.com/shorts/sEt4PLfmnA8"));
          setId3(getYouTubeID("https://youtube.com/shorts/PC3uo8SwJTs"));
+         setId4(getYouTubeID("https://www.youtube.com/watch?v=SNojcZm-ITc"));
         });
       }, []);
 
