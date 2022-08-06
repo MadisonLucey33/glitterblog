@@ -262,7 +262,7 @@ const TealAuthor = () => {
 
 
                     {/* </div> */}
-                    <h2  className={`montserrat text-sm mb-8 text-center myClass mr-12 sm:mr-12 lg:ml-28 lg:mr-40 md:pt-7 lg:pt-7 xl:ml-40 xl:mr-64 2xl:ml-96 2xl:mr-96`}><span style={{color: "rgb(255, 170, 51)"}}>I am a 19 year old graduate student </span>currently working towards achieving my Master of Science degree in Data Science. I have a passion for software engineering as well as website/applications development. It is my ability to  <span className="italic text-3xl" style={{fontFamily: "Sriracha", color: "rgb(255, 170, 51)", letterSpacing: "-0.25px", }}>"think outstide of the box"</span>  that enables me to come up with innovative solutions to complex problems! This is an Instagram worthy blog/journal… or something of the sort - you’ll see! 😋</h2>
+                    <h2  className={`montserrat text-sm mb-8 text-center myClass mr-12 sm:mr-12 lg:ml-28 lg:mr-40 md:pt-7 lg:pt-7 xl:ml-40 xl:mr-64 2xl:ml-96 2xl:mr-96`}><span style={{color: "rgb(255, 170, 51)"}}>I am a 20 year old graduate student </span>currently working towards achieving my Master of Science degree in Data Science. I have a passion for software engineering as well as website/applications development. It is my ability to  <span className="italic text-3xl" style={{fontFamily: "Sriracha", color: "rgb(255, 170, 51)", letterSpacing: "-0.25px", }}>"think outstide of the box"</span>  that enables me to come up with innovative solutions to complex problems! This is an Instagram worthy blog/journal… or something of the sort - you’ll see! 😋</h2>
 
                     
                     
