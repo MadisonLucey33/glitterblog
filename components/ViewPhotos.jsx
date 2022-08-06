@@ -622,7 +622,7 @@ export default function Example({slug}) {
                       </Tab>
 
 
-                      <Tab
+                      {/* <Tab chicago river walk could add back
                         // key={image.id}
                         className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
                       >
@@ -641,7 +641,7 @@ export default function Example({slug}) {
                             />
                           </>
                         )}
-                      </Tab>
+                      </Tab> */}
 
 
                       <Tab
@@ -843,14 +843,14 @@ export default function Example({slug}) {
                     </Tab.Panel>
 
 
-                    <Tab.Panel key={1}>
+                    {/* <Tab.Panel key={1}>
                       <img
                         src={"https://media.graphassets.com/N0ha1ajSTlCHGBh776ia"} // cotton candy
                         alt={"hey"}
                         className="w-full h-full object-center object-cover sm:rounded-lg"
                       />
                       
-                    </Tab.Panel>
+                    </Tab.Panel> */}
 
 
                     <Tab.Panel key={1}>
@@ -1212,7 +1212,7 @@ export default function Example({slug}) {
                       </Tab>
 
 
-                      <Tab
+                      <Tab 
                         // key={image.id}
                         className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
                       >
@@ -1766,7 +1766,7 @@ export default function Example({slug}) {
                     {/* {product.images.map((image) => ( */}
                      
 
-                      <Tab
+                      {/* <Tab
                         // key={image.id}
                         className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
                       >
@@ -1785,7 +1785,7 @@ export default function Example({slug}) {
                             />
                           </>
                         )}
-                      </Tab>
+                      </Tab> */}
 
                       <Tab
                         // key={image.id}
@@ -1943,14 +1943,14 @@ export default function Example({slug}) {
                  
                   
 
-                    <Tab.Panel key={1}>
+                    {/* <Tab.Panel key={1}>
                       <img
                         src={"https://media.graphassets.com/Fl9aEcaVS42OEL4CiEIw"}
                         alt={"hey"}
                         className="w-full h-full object-center object-cover sm:rounded-lg"
                       />
                       
-                    </Tab.Panel>
+                    </Tab.Panel> */}
 
                     <Tab.Panel key={1}>
                       <img
@@ -2879,7 +2879,7 @@ export default function Example({slug}) {
                 <div className="visible mt-6 w-full max-w-2xl mx-auto sm:block lg:max-w-none">
                   <Tab.List className="grid grid-cols-4 gap-6">
                     {/* {product.images.map((image) => ( */}
-                      <Tab
+                      {/* <Tab
                         // key={image.id}
                         className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
                       >
@@ -2898,7 +2898,7 @@ export default function Example({slug}) {
                             />
                           </>
                         )}
-                      </Tab>
+                      </Tab> */}
 
                       <Tab
                         // key={image.id}
@@ -3120,14 +3120,14 @@ export default function Example({slug}) {
     
                 <Tab.Panels className="w-full aspect-w-1 aspect-h-1">
                  
-                    <Tab.Panel key={1}>
+                    {/* <Tab.Panel key={1}>
                       <img
                         src={"https://media.graphassets.com/ySyObKo1SGislGJ8gtxS"}
                         alt={"hey"}
                         className="w-full h-full object-center object-cover sm:rounded-lg"
                       />
                       
-                    </Tab.Panel>
+                    </Tab.Panel> */}
 
                     <Tab.Panel key={1}>
                       <img
@@ -5187,7 +5187,7 @@ export default function Example({slug}) {
 
 
 
-                      <Tab
+                      {/* <Tab
                         // key={image.id}
                         className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
                       >
@@ -5206,7 +5206,7 @@ export default function Example({slug}) {
                             />
                           </>
                         )}
-                      </Tab>
+                      </Tab> */}
 
 
                     
@@ -5410,14 +5410,14 @@ export default function Example({slug}) {
                     </Tab.Panel>
 
                  
-                    <Tab.Panel key={1}>
+                    {/* <Tab.Panel key={1}>
                       <img
                         src={"https://media.graphassets.com/NZ6GGLyYTsmBjqcSDSWH"}
                         alt={"hey"}
                         className="w-full h-full object-center object-cover sm:rounded-lg"
                       />
                       
-                    </Tab.Panel>
+                    </Tab.Panel> */}
 
                    
 
@@ -5590,7 +5590,7 @@ export default function Example({slug}) {
                         )}
                       </Tab>
 
-                      <Tab
+                      {/* <Tab
                         // key={image.id}
                         className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
                       >
@@ -5609,7 +5609,7 @@ export default function Example({slug}) {
                             />
                           </>
                         )}
-                      </Tab>
+                      </Tab> */}
 
                       <Tab
                         // key={image.id}
@@ -5698,7 +5698,7 @@ export default function Example({slug}) {
                       </Tab>
 
 
-                      <Tab
+                      {/* <Tab I like this photo but for the time being comment seattle flag
                         // key={image.id}
                         className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
                       >
@@ -5717,7 +5717,7 @@ export default function Example({slug}) {
                             />
                           </>
                         )}
-                      </Tab>
+                      </Tab> */}
 
                       <Tab
                         // key={image.id}
@@ -5798,14 +5798,14 @@ export default function Example({slug}) {
                       
                     </Tab.Panel>
 
-                    <Tab.Panel key={1}>
+                    {/* <Tab.Panel key={1}> this is the seattle group photo TODO redo
                       <img
                         src={"https://media.graphassets.com/0DjRYRLUSc8TSMGrBNks"}
                         alt={"hey"}
                         className="w-full h-full object-center object-cover sm:rounded-lg"
                       />
                       
-                    </Tab.Panel>
+                    </Tab.Panel> */}
 
                     <Tab.Panel key={1}>
                       <img
@@ -5845,14 +5845,14 @@ export default function Example({slug}) {
                     </Tab.Panel>
 
 
-                    <Tab.Panel key={1}>
+                    {/* <Tab.Panel key={1}>
                       <img
                         src={"https://media.graphassets.com/RCtlXix1QZ65NY5wuvu4"}
                         alt={"hey"}
                         className="w-full h-full object-center object-cover sm:rounded-lg"
                       />
                       
-                    </Tab.Panel>
+                    </Tab.Panel> */}
 
                     <Tab.Panel key={1} >
                       <img
