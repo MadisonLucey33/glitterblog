@@ -1193,8 +1193,8 @@ export default function Example({slug}) {
                       </Tab>
 
 
-                      <Tab
-                        // key={image.id}
+                      {/* <Tab
+                       
                         className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
                       >
                         {({ selected }) => (
@@ -1212,11 +1212,11 @@ export default function Example({slug}) {
                             />
                           </>
                         )}
-                      </Tab>
+                      </Tab> */}
 
 
-                      <Tab 
-                        // key={image.id}
+                      {/* <Tab 
+                      
                         className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
                       >
                         {({ selected }) => (
@@ -1234,7 +1234,7 @@ export default function Example({slug}) {
                             />
                           </>
                         )}
-                      </Tab>
+                      </Tab> */}
 
                       <Tab
                         // key={image.id}
@@ -1346,8 +1346,8 @@ export default function Example({slug}) {
                       </Tab>
 
 
-                      <Tab
-                        // key={image.id}
+                      {/* <Tab
+                        
                         className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
                       >
                         {({ selected }) => (
@@ -1365,7 +1365,7 @@ export default function Example({slug}) {
                             />
                           </>
                         )}
-                      </Tab>
+                      </Tab> */}
 
 
                       <Tab
@@ -1433,24 +1433,24 @@ export default function Example({slug}) {
                       
                     </Tab.Panel>
 
-                    <Tab.Panel key={1}>
+                    {/* <Tab.Panel key={1}>
                       <img
                         src={"https://media.graphassets.com/KDOkDNvmTMGjbh278tyM"}
                         alt={"hey"}
                         className="w-full h-full object-center object-cover sm:rounded-lg"
                       />
                       
-                    </Tab.Panel>
+                    </Tab.Panel> */}
 
 
-                    <Tab.Panel key={1}>
+                    {/* <Tab.Panel key={1}>
                       <img
                         src={"https://media.graphassets.com/gJXxNS6THStrKPxVb4cA"}
                         alt={"hey"}
                         className="w-full h-full object-center object-cover sm:rounded-lg"
                       />
                       
-                    </Tab.Panel>
+                    </Tab.Panel> */}
 
 
 
@@ -1502,14 +1502,14 @@ export default function Example({slug}) {
                     </Tab.Panel>
 
 
-                    <Tab.Panel key={1}>
+                    {/* <Tab.Panel key={1}>
                       <img
                         src={"https://media.graphassets.com/iGbFx9ZRRDKetDmCwMz0"}
                         alt={"hey"}
                         className="w-full h-full object-center object-cover sm:rounded-lg"
                       />
                       
-                    </Tab.Panel>
+                    </Tab.Panel> */}
 
 
                     <Tab.Panel key={1}>
@@ -3098,8 +3098,8 @@ export default function Example({slug}) {
                       </Tab>
 
 
-                      <Tab
-                        // key={image.id}
+                      {/* <Tab
+                       
                         className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
                       >
                         {({ selected }) => (
@@ -3117,7 +3117,7 @@ export default function Example({slug}) {
                             />
                           </>
                         )}
-                      </Tab>
+                      </Tab> */}
                   
                   
                   </Tab.List>
@@ -3218,14 +3218,14 @@ export default function Example({slug}) {
                     </Tab.Panel>
 
 
-                    <Tab.Panel key={1}>
+                    {/* <Tab.Panel key={1}>
                       <img
                         src={"https://media.graphassets.com/Bv2GC2fkSXeYBvOznZaC"}
                         alt={"hey"}
                         className="w-full h-full object-center object-cover sm:rounded-lg"
                       />
                       
-                    </Tab.Panel>
+                    </Tab.Panel> */}
 
                 </Tab.Panels>
               </Tab.Group>
@@ -4620,9 +4620,9 @@ export default function Example({slug}) {
                       </Tab> */}
 
 
-            
+{/*             
             <Tab
-                        // key={image.id}
+                      
                         className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
                       >
                         {({ selected }) => (
@@ -4640,7 +4640,7 @@ export default function Example({slug}) {
                             />
                           </>
                         )}
-                      </Tab>
+                      </Tab> */}
 
 
 
@@ -4887,13 +4887,13 @@ export default function Example({slug}) {
 
 
                        
-                         <Tab.Panel key={1}>
+                         {/* <Tab.Panel key={1}>
                    <img
                      src={"https://media.graphassets.com/p27kOo2SCCti15wp7yXh"}
                      alt={"hey"}
                      className="w-full h-full object-center object-cover sm:rounded-lg"
                    />
-                 </Tab.Panel>
+                 </Tab.Panel> */}
 
               
              </Tab.Panels>
@@ -6885,9 +6885,9 @@ export default function Example({slug}) {
                        </>
                      )}
                    </Tab>
-
+{/* 
                    <Tab
-                     // key={image.id}
+                    
                      className="relative h-52 bg-white rounded-md flex items-center justify-center text-sm font-medium uppercase text-gray-900 cursor-pointer hover:bg-gray-50 focus:outline-none focus:ring focus:ring-offset-4 focus:ring-opacity-50"
                    >
                      {({ selected }) => (
@@ -6905,7 +6905,7 @@ export default function Example({slug}) {
                          />
                        </>
                      )}
-                   </Tab>
+                   </Tab> */}
 
 
 
@@ -7030,7 +7030,7 @@ export default function Example({slug}) {
                    
                  </Tab.Panel>
 
-
+{/* 
                  <Tab.Panel key={1}>
                    <img
                      src={"https://media.graphassets.com/v8el1vR7RdaAlbzYOQd0"}
@@ -7038,7 +7038,7 @@ export default function Example({slug}) {
                      className="w-full h-full object-center object-cover sm:rounded-lg"
                    />
                    
-                 </Tab.Panel>
+                 </Tab.Panel> */}
 
 
 
