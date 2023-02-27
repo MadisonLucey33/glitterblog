@@ -12,8 +12,6 @@ import { getCategories } from '../services';
 import Geolocation from './Geolocation';
 import { FeaturedPosts } from '../sections';
 import MagicRainbowButton from './MagicRainbowButton';
-import boopSfx from '../sounds/plunger-immediate.mp3';
-import useSound from 'use-sound';
 
 const Header = () => {
   const [categories, setCategories] = useState([]);
@@ -72,7 +70,7 @@ const myStyle4 = {
   position: "relative"
 };
 
-const [play] = useSound(boopSfx);
+
 
   return (
   <div className="z-5 " style={{marginTop: '-50rem'}}>
@@ -105,7 +103,7 @@ const [play] = useSound(boopSfx);
                     <Link href="/" >
                     <h2 className="md:float-left lg:mr-96">
             <span className="cursor-pointer font-bold  text-white " style={{textShadow: "1px 1px #000000", fontSize: '2.5rem', lineHeight: '2.25rem', marginRight: '0.07rem;',}}>M</span><span className="cursor-pointer font-bold text-5xl text-white " style={{textShadow: "1px 1px #000000", fontSize: '2.1rem', lineHeight: '2.25rem', marginRight: '0.22rem;',}}>adison </span>
-            <span className="cursor-pointer font-bold  text-white" style={{textShadow: "1px 1px #000000", fontSize: '2.5rem', lineHeight: '2.25rem', marginRight: '0.12rem;', }}>L</span><span className="cursor-pointer font-bold text-5xl text-white" style={{fontSize: '2.1rem', lineHeight: '2.25rem'}}>ucey</span> 
+            <span className="cursor-pointer font-bold  text-white" style={{textShadow: "1px 1px #000000", fontSize: '2.5rem', lineHeight: '2.25rem', marginRight: '0.12rem;', }}>L</span><span className="cursor-pointer font-bold text-5xl text-white" style={{fontSize: '2.1rem', lineHeight: '2.25rem'}}>ucey's</span> 
             <span className="cursor-pointer font-normal text-5xl text-white ml-2.5 " style={{fontSize: '2.1rem', lineHeight: '2.25rem', marginLeft: '0.85rem;'}}> Blog/Diary</span>
             <div className="cursor-pointer font-bold text-md text-white mt-2 text-red-200 md:mr-0 md:ml:0 lg:-mr-8 lg:ml-0 xl:mr-0 xl:ml-0">✨ More coming soon -- spoiler Las Vegas & the Mojave Desert! ✨
             {/* <span className="pl-8 text-sm antialiased italic "><br></br> (Q): Did you write about me in your diary? <br></br>(A): Maybe I did. Maybe I will. read it and find out...</span> */}
@@ -131,7 +129,7 @@ const [play] = useSound(boopSfx);
           
         </button> */}
 
-        <button type="button  "  onClick={play} className="pushable mt-8  ml-5 sm:ml-0  sm:mt-8  md:float-left md:mr-64 md:ml-0 md:mt-8 lg:float-right lg:-mt-20 lg:mr-0 xl:mr-0 xl:-mt-11 2xl:mr-0 2xl:mt-7 2xl:ml-52 ">
+        <button type="button  "  className="pushable mt-8  ml-5 sm:ml-0  sm:mt-8  md:float-left md:mr-64 md:ml-0 md:mt-8 lg:float-right lg:-mt-20 lg:mr-0 xl:mr-0 xl:-mt-11 2xl:mr-0 2xl:mt-7 2xl:ml-52 ">
         <span className="shadow"></span>
         <span className="edge"></span>
         <span className="front"> Career Portfolio ✨</span>

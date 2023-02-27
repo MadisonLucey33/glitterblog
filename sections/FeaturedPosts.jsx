@@ -5,7 +5,7 @@ import 'react-multi-carousel/lib/styles.css';
 import { FeaturedPostCard } from '../components';
 import { getFeaturedPosts } from '../services';
 
-import boopSfx from '../sounds/pop-down.mp3';
+//import boopSfx from '../sounds/pop-down.mp3';
 import useSound from 'use-sound';
 
 const responsive = {
@@ -30,7 +30,7 @@ const responsive = {
 const FeaturedPosts = () => {
   const [featuredPosts, setFeaturedPosts] = useState([]);
   const [dataLoaded, setDataLoaded] = useState(false);
-  const [play] = useSound(boopSfx);
+  const [play] = useSound("../sounds/pop-down.mp3");
   useEffect(() => {
     getFeaturedPosts().then((result) => {
       setFeaturedPosts(result);

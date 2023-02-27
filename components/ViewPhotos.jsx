@@ -37,7 +37,7 @@ Blog #1 An Instagam Worthy Road Trip
   * Red car 
   * Fence
 
-Blog #2: The Windy City Chicago test
+Blog #2: The Windy City Chicago
   * 
 
 

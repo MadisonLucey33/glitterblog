@@ -8,7 +8,7 @@ import React from 'react';
 import moment from 'moment';
 import Link from 'next/link';
 
-import boopSfx from '../sounds/pop-down.mp3';
+//import boopSfx from 
 import useSound from 'use-sound';
 
 const AdjacentPostCard = ({ post, position }) =>  {
@@ -47,7 +47,7 @@ const AdjacentPostCard = ({ post, position }) =>  {
 
 };
 
-  const [play] = useSound(boopSfx);
+  const [play] = useSound("../sounds/pop-down.mp3");
   return (
   
   <>

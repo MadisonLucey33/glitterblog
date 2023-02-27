@@ -17,6 +17,6 @@ export { default as ViewPhotos } from './ViewPhotos';
 
 export { default as InfoCard } from './InfoCard';
 
-export { default as PlayMeASong } from './PlayMeASong';
+//export { default as PlayMeASong } from './PlayMeASong';
 
 export { default as TealAuthorCopyCopyPost } from './TealAuthorCopyCopyPost';

@@ -9,7 +9,7 @@ import React from 'react';
 import moment from 'moment';
 import ViewPhotos from './ViewPhotos';
 import InfoCard from './InfoCard';
-import PlayMeASong from './PlayMeASong';
+//import PlayMeASong from './PlayMeASong';
 
 const PostDetail = ({ post }) => {
 
@@ -158,9 +158,9 @@ const PostDetail = ({ post }) => {
 
         <ViewPhotos slug={post.slug}/>
         
-       <span className="mySong mb-5 ml-36  md:ml-52 2xl:ml-72" > Play me a song</span>
+       {/* <span className="mySong mb-5 ml-36  md:ml-52 2xl:ml-72" > Play me a song</span>
         <div className="mb-5 "></div>
-        <PlayMeASong />
+        <PlayMeASong /> */}
       </div>
 
     </>

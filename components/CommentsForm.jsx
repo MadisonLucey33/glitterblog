@@ -7,10 +7,10 @@
 import React, { useState, useEffect } from 'react';
 import { submitComment } from '../services';
 
-import Sound from 'react-sound';
+//import Sound from 'react-sound';
 import useSound from 'use-sound';
 
-import boopSfx from '../sounds/fanfare.mp3';
+//import boopSfx from '../sounds/fanfare.mp3';
 
 const CommentsForm = ({ slug }) => {
   const [error, setError] = useState(false);
@@ -18,7 +18,7 @@ const CommentsForm = ({ slug }) => {
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
   const [formData, setFormData] = useState({ name: null, email: null, comment: null, storeData: false });
   
-  const [play] = useSound(boopSfx);
+  const [play] = useSound("../sounds/fanfare.mp3");
 
  
 
