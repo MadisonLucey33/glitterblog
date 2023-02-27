@@ -211,7 +211,7 @@ const [play] = useSound(boopSfx);
 
       </div>
       
-      <Geolocation />
+      {/* <Geolocation /> */}
      
       <div>
      
